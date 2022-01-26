@@ -13,7 +13,7 @@ from .data import _build_bsds_sr, _build_bsds_dn
 from .loss import Classification, PSNR
 
 
-def construct_dataloaders(dataset, defs, data_path='~/data', shuffle=True, normalize=True):
+def construct_dataloaders(dataset, defs, data_path='./data', shuffle=True, normalize=True):
     """Return a dataloader with given dataset and augmentation, normalize data?."""
     path = os.path.expanduser(data_path)
 

@@ -101,7 +101,7 @@ def split(aug_list):
 def preprocess(opt, defs, valid=False):
     if opt.data == 'cifar100':
         loss_fn, trainloader, validloader =  inversefed.construct_dataloaders('CIFAR100', defs)
-        trainset, validset = _build_cifar100('~/data/')
+        trainset, validset = _build_cifar100('./data/')
 
         if len(opt.aug_list) > 0:
             policy_list = split(opt.aug_list)
