@@ -1,3 +1,12 @@
+import torch
+from copy import deepcopy
+from collections import defaultdict, OrderedDict
+import time
+
+from metrics import total_variation as TV
+from metrics import InceptionScore
+from medianfilt import MedianPool2d
+
 DEFAULT_CONFIG = dict(signed=False,
                       boxed=True,
                       cost_fn='sim',
@@ -12,7 +21,16 @@ DEFAULT_CONFIG = dict(signed=False,
                       filter='none',
                       lr_decay=True,
                       scoring_choice='loss')
-                      
+
+def _validate_config(config):
+    for key in DEFAULT_CONFIG.keys():
+        if config.get(key) is None:
+            config[key] = DEFAULT_CONFIG[key]
+    for key in config.keys():
+        if DEFAULT_CONFIG.get(key) is None:
+            raise ValueError(f'Deprecated key in config dict: {key}!')
+    return config    
+
 class GradientReconstructor():
     """Instantiate a reconstruction algorithm."""
 
@@ -219,3 +237,86 @@ class GradientReconstructor():
                                             weights=self.config['weights'])
         print(f'Optimal result score: {stats["opt"]:2.4f}')
         return x_optimal, stats
+
+def reconstruction_costs(gradients, input_gradient, cost_fn='l2', indices='def', weights='equal'):
+    """Input gradient is given data."""
+    if isinstance(indices, list):
+        pass
+    elif indices == 'def':
+        indices = torch.arange(len(input_gradient))
+    elif indices == 'batch':
+        indices = torch.randperm(len(input_gradient))[:8]
+    elif indices == 'topk-1':
+        _, indices = torch.topk(torch.stack([p.norm() for p in input_gradient], dim=0), 4)
+    elif indices == 'top10':
+        _, indices = torch.topk(torch.stack([p.norm() for p in input_gradient], dim=0), 10)
+    elif indices == 'top50':
+        _, indices = torch.topk(torch.stack([p.norm() for p in input_gradient], dim=0), 50)
+    elif indices in ['first', 'first4']:
+        indices = torch.arange(0, 4)
+    elif indices == 'first5':
+        indices = torch.arange(0, 5)
+    elif indices == 'first10':
+        indices = torch.arange(0, 10)
+    elif indices == 'first50':
+        indices = torch.arange(0, 50)
+    elif indices == 'last5':
+        indices = torch.arange(len(input_gradient))[-5:]
+    elif indices == 'last10':
+        indices = torch.arange(len(input_gradient))[-10:]
+    elif indices == 'last50':
+        indices = torch.arange(len(input_gradient))[-50:]
+    else:
+        raise ValueError()
+
+    ex = input_gradient[0]
+    if weights == 'linear':
+        weights = torch.arange(len(input_gradient), 0, -1, dtype=ex.dtype, device=ex.device) / len(input_gradient)
+    elif weights == 'exp':
+        weights = torch.arange(len(input_gradient), 0, -1, dtype=ex.dtype, device=ex.device)
+        weights = weights.softmax(dim=0)
+        weights = weights / weights[0]
+    else:
+        weights = input_gradient[0].new_ones(len(input_gradient))
+    cnt = 0
+    total_costs = 0
+    for trial_gradient in gradients:
+        pnorm = [0, 0]
+        costs = 0
+        if indices == 'topk-2':
+            _, indices = torch.topk(torch.stack([p.norm().detach() for p in trial_gradient], dim=0), 4)
+        for i in indices:
+            if cost_fn == 'l2':
+                costs += ((trial_gradient[i] - input_gradient[i]).pow(2)).sum() * weights[i]
+            elif cost_fn == 'l1':
+                costs += ((trial_gradient[i] - input_gradient[i]).abs()).sum() * weights[i]
+            elif cost_fn == 'max':
+                costs += ((trial_gradient[i] - input_gradient[i]).abs()).max() * weights[i]
+            elif cost_fn == 'sim':
+                costs -= (trial_gradient[i] * input_gradient[i]).sum() * weights[i]
+                pnorm[0] += trial_gradient[i].pow(2).sum() * weights[i]
+                pnorm[1] += input_gradient[i].pow(2).sum() * weights[i]
+                cnt = 1
+            elif cost_fn == 'out_sim':
+                if len(trial_gradient[i].shape) >= 2:
+                    for j in range(trial_gradient[i].shape[0]):
+                        costs += 1 - torch.nn.functional.cosine_similarity(trial_gradient[i][j].flatten(),
+                                                                   input_gradient[i][j].flatten(),
+                                                                   0, 1e-10) * weights[i]
+                        cnt += 1
+                else:
+                    costs += 1 - torch.nn.functional.cosine_similarity(trial_gradient[i].flatten(),
+                                                                   input_gradient[i].flatten(),
+                                                                   0, 1e-10) * weights[i]
+                    cnt += 1
+                # print(sim_out.item())
+            elif cost_fn == 'simlocal':
+                costs += 1 - torch.nn.functional.cosine_similarity(trial_gradient[i].flatten(),
+                                                                   input_gradient[i].flatten(),
+                                                                   0, 1e-10) * weights[i]
+        if cost_fn == 'sim':
+            costs = 1 + costs / pnorm[0].sqrt() / pnorm[1].sqrt()
+        # Accumulate final costs
+        total_costs += costs / cnt
+
+    return total_costs / len(gradients)

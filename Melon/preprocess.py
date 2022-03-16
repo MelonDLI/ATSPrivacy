@@ -95,11 +95,31 @@ def preprocess(opt=None, defs=None, valid=False):
     #     raise NotImplementedError
 
 
-if __name__ == '__main__':
-    defs = training_strategy('conservative'); defs.epochs = 100
-    loss_fn, trainloader, validloader = preprocess(defs=defs)
-    # print(loss_fn)
-    # print(trainloader)
-    data, targets = next(iter(trainloader))
-    print(targets) # batch size 128
+# if __name__ == '__main__':
+#     defs = training_strategy('conservative'); defs.epochs = 100
+#     loss_fn, trainloader, validloader = preprocess(defs=defs)
+#     # print(loss_fn)
+#     # print(trainloader)
+#     data, targets = next(iter(trainloader))
+#     print(targets) # batch size 128
 
+def create_config(opt=None):
+    # TODO opt
+    # Tried Method 1
+    # if opt.optim == 'inversed':
+    config = dict(signed=True,
+                boxed=True,
+                cost_fn='sim',
+                indices='def',
+                weights='equal',
+                lr=0.1,
+                optim='adam',
+                restarts=1,
+                max_iterations=4800,
+                total_variation=1e-4,
+                init='randn',
+                filter='none',
+                lr_decay=True,
+                scoring_choice='loss')
+
+    return config

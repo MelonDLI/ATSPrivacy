@@ -1,9 +1,9 @@
-from preprocess import preprocess
+from preprocess import preprocess,create_config
 import utils
 import Models
 from optimization_strategy import training_strategy
 from reconstruction_algorithm import GradientReconstructor
-
+import metrics
 import torchvision
 import torch
 import os
@@ -12,6 +12,8 @@ import numpy as np
 num_images = 1
 setup = utils.system_startup()
 # TODO opt
+# config = create_config(opt)
+config = create_config() 
 # cifar10_mean = [0.4914672374725342, 0.4822617471218109, 0.4467701315879822]
 # cifar10_std = [0.24703224003314972, 0.24348513782024384, 0.26158785820007324]
 cifar100_mean = [0.5071598291397095, 0.4866936206817627, 0.44120192527770996]
@@ -58,6 +60,23 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
     mean_loss = torch.mean((input_denormalized - output_denormalized) * (input_denormalized - output_denormalized))
     print("after optimization, the true mse loss {}".format(mean_loss))
 
+    save_dir = create_save_dir()
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+    torchvision.utils.save_image(output_denormalized.cpu().clone(), '{}/rec_{}.jpg'.format(save_dir, idx))
+    torchvision.utils.save_image(input_denormalized.cpu().clone(), '{}/ori_{}.jpg'.format(save_dir, idx))
+
+
+    test_mse = (output_denormalized.detach() - input_denormalized).pow(2).mean().cpu().detach().numpy()
+    feat_mse = (model(output.detach())- model(ground_truth)).pow(2).mean()
+    test_psnr = metrics.psnr(output_denormalized, input_denormalized)
+    print('test_mse: {}'.format(test_mse))
+    print('feat_mse: {}'.format(feat_mse))
+    print('test_psnr: {}'.format(test_psnr))
+    return {'test_mse': test_mse,
+        'feat_mse': feat_mse,
+        'test_psnr': test_psnr
+    }
 def main():
     # global trained_model=True
     defs = training_strategy('conservative'); defs.epochs = 100
