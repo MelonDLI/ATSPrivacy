@@ -1,5 +1,14 @@
 import consts
 
+import torch
+import numpy as np
+
+from collections import defaultdict
+
+import matplotlib.pyplot as plt
+
+NON_BLOCKING = False
+
 def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch.float, device=torch.device('cpu')), save_dir=None):
     """Run the main interface. Train a network with specifications from the Strategy object."""
     stats = defaultdict(list)
@@ -31,8 +40,8 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
 
 def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats):
     """Step through one epoch."""
-    dm = torch.as_tensor(consts.cifar10_mean, **setup)[:, None, None]
-    ds = torch.as_tensor(consts.cifar10_std, **setup)[:, None, None]
+    dm = torch.as_tensor(consts.cifar100_mean, **setup)[:, None, None]
+    ds = torch.as_tensor(consts.cifar100_std, **setup)[:, None, None]
 
     epoch_loss, epoch_metric = 0, 0
     for batch, (inputs, targets) in enumerate(dataloader):
@@ -118,16 +127,16 @@ def print_status(epoch, loss_fn, optimizer, stats):
     print(f'Epoch: {epoch}| lr: {current_lr:.4f} | '
           f'Train loss is {stats["train_losses"][-1]:6.4f}, Train {name}: {stats["train_" + name][-1]:{format}} | '
           f'Val loss is {stats["valid_losses"][-1]:6.4f}, Val {name}: {stats["valid_" + name][-1]:{format}} |')
-    save_plot_loss_accuracy(stats)
+    save_plot_loss_accuracy(stats,name)
 
 
-def save_plot_loss_accuracy(stats):
+def save_plot_loss_accuracy(stats,name):
     path = '/home/remote/u7076589/ATSPrivacy/Melon/benchmark/plot'
     # loss
     fig, ax = plt.subplots(figsize=[8,6])
 
-    tl_line1 = ax.plot(stats['train_loss'], label='Training Loss', color='blue')
-    vl_line2 = ax.plot(stats['val_loss'], label='Validation Loss', color='navy')
+    tl_line1 = ax.plot(stats['train_losses'], label='Training Loss', color='red')
+    vl_line2 = ax.plot(stats['valid_losses'], label='Validation Loss', color='navy')
 
     ax.set_xlabel('Epoch')
     ax.set_ylabel('Loss')
@@ -143,8 +152,8 @@ def save_plot_loss_accuracy(stats):
     # accuracy
     fig, ax = plt.subplots(figsize=[8,6])
 
-    tl_line1 = ax.plot(stats['train_loss'], label='Training Loss', color='blue')
-    vl_line2 = ax.plot(stats['val_loss'], label='Validation Loss', color='navy')
+    tl_line1 = ax.plot(stats["train_" + name], label='Training Loss', color='red')
+    vl_line2 = ax.plot(stats["valid_" + name], label='Validation Loss', color='navy')
 
     ax.set_xlabel('Epoch')
     ax.set_ylabel('Loss')
@@ -154,6 +163,6 @@ def save_plot_loss_accuracy(stats):
     labels = [_.get_label() for _ in lines]
     ax.legend(lines, labels, loc='center right')
     ax.set_xlim(xmin=0)
-    fig.savefig('{}/loss.png'.format(path))   # save the figure to file
+    fig.savefig('{}/accuracy.png'.format(path))   # save the figure to file
     plt.close(fig)    # close the figure window
     
