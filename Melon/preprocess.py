@@ -30,7 +30,7 @@ def construct_dataloaders(dataset, defs, data_path='~/data', shuffle=True, norma
 
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=min(defs.batch_size, len(trainset)),
                                               shuffle=shuffle, drop_last=True, num_workers=num_workers,pin_memory=True)
-    validloader = torch.utils.data.DataLoader(validset, batch_size=min(defs.batch_size, len(trainset)),
+    validloader = torch.utils.data.DataLoader(validset, batch_size=min(defs.batch_size, len(validset)),
                                               shuffle=False, drop_last=False, num_workers=num_workers,pin_memory=True)
 
     return loss_fn, trainloader, validloader
