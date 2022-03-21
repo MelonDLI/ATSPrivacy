@@ -89,17 +89,19 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats):
 
     input2, target2 = next(iter(dataloader))
     input2 = input2.to(**setup)
-    # print(input2.shape)
+    # print('input2 size:{}'.format(input2.shape))
     
     for batch, (inputs, targets) in enumerate(dataloader):
         # Prep Mini-Batch
         optimizer.zero_grad()
         # Transfer to GPU
         inputs = inputs.to(**setup)
-        # print(inputs.shape)
+        # print('input size:{}'.format(inputs.shape))
         targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
         # Get loss
-        outputs = model(inputs, input2)
+        if input2.shape != inputs.shape:
+            input2 = input2[:inputs.shape[0],:,:]
+        outputs = model(inputs, input2=input2)  # switch 
         loss, _, _ = loss_fn(outputs, targets)
 
 
