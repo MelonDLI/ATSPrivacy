@@ -152,12 +152,12 @@ def save_plot_loss_accuracy(stats,name):
     # accuracy
     fig, ax = plt.subplots(figsize=[8,6])
 
-    tl_line1 = ax.plot(stats["train_" + name], label='Training Loss', color='red')
-    vl_line2 = ax.plot(stats["valid_" + name], label='Validation Loss', color='navy')
+    tl_line1 = ax.plot(stats["train_" + name], label='Training Accuracy', color='red')
+    vl_line2 = ax.plot(stats["valid_" + name], label='Validation Accuracy', color='navy')
 
     ax.set_xlabel('Epoch')
     ax.set_ylabel('Loss')
-    ax.set_title('Training Loss')
+    ax.set_title('Training Accuracy')
 
     lines = tl_line1 + vl_line2
     labels = [_.get_label() for _ in lines]
