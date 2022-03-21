@@ -8,6 +8,7 @@ import torchvision
 import torch
 import os
 import numpy as np
+import argparse
 
 num_images = 1
 setup = utils.system_startup()
@@ -18,6 +19,11 @@ config = create_config()
 # cifar10_std = [0.24703224003314972, 0.24348513782024384, 0.26158785820007324]
 cifar100_mean = [0.5071598291397095, 0.4866936206817627, 0.44120192527770996]
 cifar100_std = [0.2673342823982239, 0.2564384639263153, 0.2761504650115967]
+
+parser = argparse.ArgumentParser(description='Reconstruct some image from a trained model.')
+parser.add_argument('--model_path', default=None, type=str, required=True, help='Model path file')
+
+opt = parser.parse_args()
 
 def create_save_dir():
     # return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
@@ -87,7 +93,10 @@ def main():
     # if trained_model:
     
     # reload trained model
-    filename = 'checkpoints/ResNet20-4_50.pth'
+    # filename = 'checkpoints/ResNet20-4_50.pth'
+    # filename='/home/remote/u7076589/ATSPrivacy/Melon/checkpoints/ResNet20-4_100.pth'
+    filename = opt.model_path
+    print(filename)
     assert os.path.exists(filename)
     model.load_state_dict(torch.load(filename))
 
@@ -96,11 +105,11 @@ def main():
     sample_list = [i for i in range(100)]
     metric_list = list()
     mse_loss = 0
+    save_dir = create_save_dir()
     for attack_id, idx in enumerate(sample_list):
         metric = reconstruct(idx, model, loss_fn, trainloader, validloader)
         metric_list.append(metric)
-    save_dir = create_save_dir()
-    np.save('{}/metric.npy'.format(save_dir), metric_list)
+        np.save('{}/metric.npy'.format(save_dir), metric_list)
 
 if __name__ == '__main__':
     main()

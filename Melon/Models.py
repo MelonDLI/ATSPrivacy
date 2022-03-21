@@ -2,13 +2,51 @@ import torch
 import torchvision
 import torch.nn as nn
 
+class PONO(nn.Module):
+    # MOMENTS
+    def __init__(self, input_size=None, return_stats=False, affine=True, eps=1e-5):
+        super(PONO, self).__init__()
+        self.return_stats = return_stats
+        self.input_size = input_size
+        self.eps = eps
+        self.affine = affine
+
+        if affine:
+            self.beta = nn.Parameter(torch.zeros(1, 1, *input_size))
+            self.gamma = nn.Parameter(torch.ones(1, 1, *input_size))
+        else:
+            self.beta, self.gamma = None, None
+
+    def forward(self, x):
+        mean = x.mean(dim=1, keepdim=True)
+        std = (x.var(dim=1, keepdim=True) + self.eps).sqrt()
+        x = (x - mean) / std
+        if self.affine:
+            x = x * self.gamma + self.beta
+        return x, mean, std
+
+class MomentShortcut(nn.Module):
+    # MOMENTS
+    def __init__(self, beta=None, gamma=None):
+        super(MomentShortcut, self).__init__()
+        self.gamma, self.beta = gamma, beta
+
+    def forward(self, x, beta=None, gamma=None):
+        beta = self.beta if beta is None else beta
+        gamma = self.gamma if gamma is None else gamma
+        if gamma is not None:
+            x.mul_(gamma)
+        if beta is not None:
+            x.add_(beta)
+        return x
+
 
 class ResNet(torchvision.models.ResNet):
     """ResNet generalization for CIFAR thingies."""
 
     def __init__(self, block, layers, num_classes=10, num_channels=0, zero_init_residual=False,
                  groups=1, base_width=64, replace_stride_with_dilation=None,
-                 norm_layer=None, strides=[1, 2, 2, 2], pool='avg'):
+                 norm_layer=None, strides=[1, 2, 2, 2], pool='avg',pono=True,ms=True):
         """Initialize as usual. Layers and strides are scriptable."""
         super(torchvision.models.ResNet, self).__init__()  # nn.Module
         if norm_layer is None:
@@ -57,12 +95,21 @@ class ResNet(torchvision.models.ResNet):
                     nn.init.constant_(m.bn3.weight, 0)
                 elif isinstance(m, BasicBlock):
                     nn.init.constant_(m.bn2.weight, 0)
+        # MOMENTS
+        self.pono = PONO(affine=False) if pono else None
+        self.ms = MomentShortcut() if ms else None
 
 
-    def _forward_impl(self, x):
+    def _forward_impl(self, x, input2=None):
         # See note [TorchScript super()]
         x = self.conv1(x)
-        x = self.bn1(x)
+        if input2 is not None:
+          x2 = self.conv1(input2)
+          x,_,_ = self.pono(x)
+          x2, mean, std = self.pono(x2)
+          x = self.ms(x,mean,std)
+        else:
+            x = self.bn1(x)  # TODO if bn is required or not
         x = self.relu(x)
 
         for layer in self.layers:
