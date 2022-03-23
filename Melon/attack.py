@@ -28,7 +28,7 @@ opt = parser.parse_args()
 def create_save_dir():
     # return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
     #     opt.aug_list, opt.rlabel)
-    return 'benchmark/images/'
+    return 'benchmark/MoEx_bn_images/'
 
 def reconstruct(idx, model, loss_fn, trainloader, validloader):
     # if opt.data=='cifar100':
