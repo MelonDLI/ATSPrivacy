@@ -181,7 +181,7 @@ def print_status(epoch, loss_fn, optimizer, stats):
 
 
 def save_plot_loss_accuracy(stats,name):
-    path = '/home/remote/u7076589/ATSPrivacy/Melon/benchmark/plot'
+    path = '/home/remote/u7076589/ATSPrivacy/Melon/benchmark/MoEx_bn_train_epoch_200_plot'
     # loss
     fig, ax = plt.subplots(figsize=[8,6])
 

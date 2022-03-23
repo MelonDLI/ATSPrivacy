@@ -123,13 +123,16 @@ class ResNet(torchvision.models.ResNet):
     def forward(self, x, input2=None):
         # See note [TorchScript super()]
         x = self.conv1(x)
+        x = self.bn1(x)
+        
         if input2 is not None:
           x2 = self.conv1(input2)
+          x2= self.bn1(x2)
           x,_,_ = self.pono(x)
           x2, mean, std = self.pono(x2)
           x = self.ms(x,mean,std)
         # else:
-        x = self.bn1(x)  # TODO if bn is required or not
+        
         x = self.relu(x)
 
         for layer in self.layers:
