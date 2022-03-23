@@ -34,7 +34,7 @@ opt = parser.parse_args()
 arch = opt.arch
 
 def create_save_dir():
-    return 'checkpoints/data_{}_arch_{}_rlabel_{}'.format(opt.data, opt.arch, opt.rlabel)
+    return 'checkpoints/MoEx_bn_ResNet_20'
 
 
 def main():
@@ -206,7 +206,7 @@ def save_plot_loss_accuracy(stats,name):
     vl_line2 = ax.plot(stats["valid_" + name], label='Validation Accuracy', color='navy')
 
     ax.set_xlabel('Epoch')
-    ax.set_ylabel('Loss')
+    ax.set_ylabel('Accuracy')
     ax.set_title('Training Accuracy')
 
     lines = tl_line1 + vl_line2

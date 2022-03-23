@@ -128,8 +128,8 @@ class ResNet(torchvision.models.ResNet):
           x,_,_ = self.pono(x)
           x2, mean, std = self.pono(x2)
           x = self.ms(x,mean,std)
-        else:
-            x = self.bn1(x)  # TODO if bn is required or not
+        # else:
+        x = self.bn1(x)  # TODO if bn is required or not
         x = self.relu(x)
 
         for layer in self.layers:

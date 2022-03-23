@@ -19,14 +19,14 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
         step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats)
         model.eval()
         validate(model, loss_fn, validloader, defs, setup, stats)
-        if epoch % defs.validate == 0 or epoch == (defs.epochs - 1):
+        # if epoch % defs.validate == 0 or epoch == (defs.epochs - 1):
             # model.eval()
             # validate(model, loss_fn, validloader, defs, setup, stats)
             # Print information about loss and accuracy
-            print_status(epoch, loss_fn, optimizer, stats)
-            if save_dir is not None:
-                file = f'{save_dir}/{epoch}.pth'
-                torch.save(model.state_dict(), f'{file}')
+        print_status(epoch, loss_fn, optimizer, stats)
+        if save_dir is not None:
+            file = f'{save_dir}/{epoch}.pth'
+            torch.save(model.state_dict(), f'{file}')
 
         if defs.dryrun:
             break
