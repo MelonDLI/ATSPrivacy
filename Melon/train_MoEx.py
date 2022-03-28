@@ -29,12 +29,14 @@ parser.add_argument('--rlabel', default=False, type=bool, help='remove label.')
 parser.add_argument('--evaluate', default=False, type=bool, help='Evaluate')
 # parser.add_argument('--aug_list', default=None, required=True, type=str, help='Augmentation method.')
 parser.add_argument('--Moments', default=False,type=bool, help='Switch Moments or not')
+parser.add_argument('--moex_prob', default=0.5,type=float, help='moex_probability')
+parser.add_argument('--lam', default=0.9,type=float, help='loss proportion')
 
 opt = parser.parse_args()
 arch = opt.arch
 
 def create_save_dir():
-    return 'checkpoints/MoEx_bn_ResNet_20'
+    return 'checkpoints/MoEx_bn_ResNet_20_lam_09_p_05'
 
 
 def main():
@@ -98,11 +100,29 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats):
         inputs = inputs.to(**setup)
         # print('input size:{}'.format(inputs.shape))
         targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
-        # Get loss
-        if input2.shape != inputs.shape:
-            input2 = input2[:inputs.shape[0],:,:]
-        outputs = model(inputs, input2=input2)  # switch 
-        loss, _, _ = loss_fn(outputs, targets)
+        
+        lam = opt.lam
+        r = np.random.rand(1)
+        if r < opt.moex_prob: # switch moments
+            # generate mixed sample
+            rand_index = torch.randperm(inputs.size()[0]).cuda()
+            target_a = targets
+            target_b = targets[rand_index]
+            input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
+            input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
+            target_a_var = torch.autograd.Variable(target_a)
+            target_b_var = torch.autograd.Variable(target_b)
+            outputs = model(input_a_var, input_b_var)
+            loss_a, _, _ = loss_fn(outputs, target_a_var)
+            loss_b, _, _ = loss_fn(outputs, target_b_var)
+            loss = lam*loss_a + (1-lam)*loss_b
+        else: # do not switch
+            outputs = model(inputs)
+        # if input2.shape != inputs.shape:
+        #     input2 = input2[:inputs.shape[0],:,:]
+        # outputs = model(inputs, input2=input2)  # switch
+            # Get loss 
+            loss, _, _ = loss_fn(outputs, targets)
 
 
         epoch_loss += loss.item()
@@ -181,7 +201,7 @@ def print_status(epoch, loss_fn, optimizer, stats):
 
 
 def save_plot_loss_accuracy(stats,name):
-    path = '/home/remote/u7076589/ATSPrivacy/Melon/benchmark/MoEx_bn_train_epoch_200_plot'
+    path = '/home/remote/u7076589/ATSPrivacy/Melon/benchmark/MoEx_bn_lambda_09/'
     # loss
     fig, ax = plt.subplots(figsize=[8,6])
 

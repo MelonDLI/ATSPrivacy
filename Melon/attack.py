@@ -14,7 +14,7 @@ num_images = 1
 setup = utils.system_startup()
 # TODO opt
 # config = create_config(opt)
-config = create_config() 
+
 # cifar10_mean = [0.4914672374725342, 0.4822617471218109, 0.4467701315879822]
 # cifar10_std = [0.24703224003314972, 0.24348513782024384, 0.26158785820007324]
 cifar100_mean = [0.5071598291397095, 0.4866936206817627, 0.44120192527770996]
@@ -22,13 +22,15 @@ cifar100_std = [0.2673342823982239, 0.2564384639263153, 0.2761504650115967]
 
 parser = argparse.ArgumentParser(description='Reconstruct some image from a trained model.')
 parser.add_argument('--model_path', default=None, type=str, required=True, help='Model path file')
+parser.add_argument('--optim', default='inversed', type=str, help='Attack type')
 
 opt = parser.parse_args()
+config = create_config(opt) 
 
 def create_save_dir():
     # return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
     #     opt.aug_list, opt.rlabel)
-    return 'benchmark/MoEx_bn_images/'
+    return 'benchmark/MoEx_bn_lambda_09/'
 
 def reconstruct(idx, model, loss_fn, trainloader, validloader):
     # if opt.data=='cifar100':
