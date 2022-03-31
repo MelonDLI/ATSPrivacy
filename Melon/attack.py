@@ -23,14 +23,15 @@ cifar100_std = [0.2673342823982239, 0.2564384639263153, 0.2761504650115967]
 parser = argparse.ArgumentParser(description='Reconstruct some image from a trained model.')
 parser.add_argument('--model_path', default=None, type=str, required=True, help='Model path file')
 parser.add_argument('--optim', default='inversed', type=str, help='Attack type')
+parser.add_argument('--save_dir', default=None, type=str, required=True, help='image saving folder')
 
 opt = parser.parse_args()
 config = create_config(opt) 
 
-def create_save_dir():
-    # return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
-    #     opt.aug_list, opt.rlabel)
-    return 'benchmark/MoEx_bn_lambda_09/'
+# def create_save_dir():
+#     # return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+#     #     opt.aug_list, opt.rlabel)
+#     return 'benchmark/ResNet_DA/'
 
 def reconstruct(idx, model, loss_fn, trainloader, validloader):
     # if opt.data=='cifar100':
@@ -68,7 +69,8 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
     mean_loss = torch.mean((input_denormalized - output_denormalized) * (input_denormalized - output_denormalized))
     print("after optimization, the true mse loss {}".format(mean_loss))
 
-    save_dir = create_save_dir()
+    # save_dir = create_save_dir()
+    save_dir = opt.save_dir
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     torchvision.utils.save_image(output_denormalized.cpu().clone(), '{}/rec_{}.jpg'.format(save_dir, idx))
@@ -107,7 +109,7 @@ def main():
     sample_list = [i for i in range(100)]
     metric_list = list()
     mse_loss = 0
-    save_dir = create_save_dir()
+    save_dir = opt.save_dir
     for attack_id, idx in enumerate(sample_list):
         metric = reconstruct(idx, model, loss_fn, trainloader, validloader)
         metric_list.append(metric)
