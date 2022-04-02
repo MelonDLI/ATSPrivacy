@@ -9,6 +9,8 @@ def training_strategy(strategy, lr=None, epochs=None, dryrun=False):
         defs = ConservativeStrategy(lr, epochs, dryrun)
     elif strategy == 'adam':
         defs = AdamStrategy(lr, epochs, dryrun)
+    elif stategy == 'Moments':
+        defs = MomentStrategy(lr, epochs,dryrun)
     else:
         raise ValueError('Unknown training strategy.')
     return defs
@@ -58,6 +60,23 @@ class ConservativeStrategy(Strategy):
         self.dryrun = False
         super().__init__(lr=None, epochs=None, dryrun=False)
 
+@dataclass
+class MomentStrategy(Strategy):
+    """Default usual parameters, defines a config object."""
+
+    def __init__(self, lr=None, epochs=None, dryrun=False):
+        """Initialize training hyperparameters."""
+        self.lr = 0.1
+        self.epoch = None
+        self.batch_size = 2 # two inputs
+        self.optimizer = 'SGD'
+        self.scheduler = 'linear'
+        self.warmup = False
+        self.weight_decay : float = 5e-4
+        self.dropout = 0.0
+        self.augmentations = True
+        self.dryrun = False
+        super().__init__(lr=None, epochs=None, dryrun=False)
 
 @dataclass
 class AdamStrategy(Strategy):

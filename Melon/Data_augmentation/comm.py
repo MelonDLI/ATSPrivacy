@@ -13,34 +13,6 @@ policies = policy.policies
 
 from consts import *
 
-def _build_cifar100(data_path, augmentations=True, normalize=True):
-    """Define CIFAR-100 with everything considered."""
-    # Load data
-    trainset = torchvision.datasets.CIFAR100(root=data_path, train=True, download=True, transform=transforms.ToTensor())
-    validset = torchvision.datasets.CIFAR100(root=data_path, train=False, download=True, transform=transforms.ToTensor())
-
-    if cifar100_mean is None:
-        data_mean, data_std = _get_meanstd(trainset)
-    else:
-        data_mean, data_std = cifar100_mean, cifar100_std
-
-    # Organize preprocessing
-    transform = transforms.Compose([
-        transforms.ToTensor(),
-        transforms.Normalize(data_mean, data_std) if normalize else transforms.Lambda(lambda x: x)])
-    if augmentations:
-        transform_train = transforms.Compose([
-            transforms.RandomCrop(32, padding=4),
-            transforms.RandomHorizontalFlip(),
-            transform])
-        trainset.transform = transform_train
-    else:
-        trainset.transform = transform
-    validset.transform = transform
-
-    return trainset, validset
-
-
 def construct_dataloaders(dataset, defs, data_path='~/data', shuffle=True, normalize=True):
     """Return a dataloader with given dataset and augmentation, normalize data?."""
     path = os.path.expanduser(data_path)
@@ -64,6 +36,39 @@ def construct_dataloaders(dataset, defs, data_path='~/data', shuffle=True, norma
 
     return loss_fn, trainloader, validloader
 
+
+def _get_meanstd(trainset):
+    cc = torch.cat([trainset[i][0].reshape(3, -1) for i in range(len(trainset))], dim=1)
+    data_mean = torch.mean(cc, dim=1).tolist()
+    data_std = torch.std(cc, dim=1).tolist()
+    return data_mean, data_std
+
+def _build_cifar100(data_path, augmentations=True, normalize=True):
+    """Define CIFAR-100 with everything considered."""
+    # Load data
+    trainset = torchvision.datasets.CIFAR100(root=data_path, train=True, download=True, transform=transforms.ToTensor())
+    validset = torchvision.datasets.CIFAR100(root=data_path, train=False, download=True, transform=transforms.ToTensor())
+
+    # if cifar100_mean is None:
+    data_mean, data_std = _get_meanstd(trainset)  # TODO
+    # else:
+    #     data_mean, data_std = cifar100_mean, cifar100_std
+
+    # Organize preprocessing
+    transform = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize(data_mean, data_std) if normalize else transforms.Lambda(lambda x: x)])
+    if augmentations:
+        transform_train = transforms.Compose([
+            transforms.RandomCrop(32, padding=4),
+            transforms.RandomHorizontalFlip(),
+            transform])
+        trainset.transform = transform_train
+    else:
+        trainset.transform = transform
+    validset.transform = transform
+
+    return trainset, validset
 
 class sub_transform:
     def __init__(self, policy_list):
@@ -114,13 +119,12 @@ def build_transform(normalize=True, policy_list=list(), opt=None, defs=None):
     #     transform_list.append(lambda x: transforms.functional.to_grayscale(x, num_output_channels=1))
     #     transform_list.append(transforms.Resize(32))
 
-    print(transform_list)
-
-
     transform_list.extend([
         transforms.ToTensor(),
         transforms.Normalize(data_mean, data_std) if normalize else transforms.Lambda(lambda x: x),
-    ])
+    ]) 
+
+    print(transform_list)
 
     transform = transforms.Compose(transform_list)
     return transform
@@ -137,6 +141,13 @@ def split(aug_list):
 
 
 def preprocess(opt, defs, valid=False):
+    if MULTITHREAD_DATAPROCESSING:
+        num_workers = min(torch.get_num_threads(), MULTITHREAD_DATAPROCESSING) if torch.get_num_threads() > 1 else 0
+    else:
+        num_workers = 0
+
+        print('preprocess num_workers:{}'.format(num_workers))
+
     if opt.data == 'cifar100':
         loss_fn, trainloader, validloader =  construct_dataloaders('CIFAR100', defs)
         trainset, validset = _build_cifar100('~/data/')
@@ -145,19 +156,14 @@ def preprocess(opt, defs, valid=False):
             policy_list = split(opt.aug_list)
         else:
             policy_list = []
-        if not valid:
-            trainset.transform = build_transform(True, policy_list, opt, defs)
-        if MULTITHREAD_DATAPROCESSING:
-            num_workers = min(torch.get_num_threads(), MULTITHREAD_DATAPROCESSING) if torch.get_num_threads() > 1 else 0
-        else:
-            num_workers = 0
 
-        print('preprocess num_workers:{}'.format(num_workers))
+        if not valid and len(policy_list) > 0:
+            trainset.transform = build_transform(True, policy_list, opt, defs)
         trainloader = torch.utils.data.DataLoader(trainset, batch_size=defs.batch_size,
                     shuffle=True, drop_last=False, num_workers=num_workers, pin_memory=True)
 
 
-        if valid:
+        if valid and len(policy_list) > 0:
             validset.transform = build_transform(True, policy_list, opt, defs)
         validloader = torch.utils.data.DataLoader(validset, batch_size=defs.batch_size,
                 shuffle=False, drop_last=False, num_workers=num_workers, pin_memory=True)
