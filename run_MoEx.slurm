@@ -7,7 +7,7 @@
 #SBATCH --time=24:00:00                         # Time limit hrs:min:sec
 #SBATCH --partition=teaching                        # Partition to schedule to
 #SBATCH --gres=gpu:1     				        # Request a GPU allocation
-#SBATCH --output=ATSprivacy_MoEx%j.log                 # Standard output and error log
+#SBATCH --output=ATSprivacy_MoEx_%j.log                 # Standard output and error log
 #SBATCH --qos=teachingproject
 
 pwd; hostname; date

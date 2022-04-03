@@ -77,7 +77,8 @@ def main():
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     file = f'{save_dir}/{arch}_{defs.epochs}.pth'
-    inversefed.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir, MoEx=opt.MoEx, opt=opt)
+    metric_list=inversefed.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir, MoEx=opt.MoEx, opt=opt)
+    np.save('{}/loss_accuracy_metric.npy'.format(save_dir), metric_list)  #! save accuracy and loss result
     torch.save(model.state_dict(), f'{file}')
     model.eval()
 
