@@ -101,22 +101,24 @@ def split(aug_list):
 def preprocess(opt, defs, valid=False):
     if opt.data == 'cifar100':
         loss_fn, trainloader, validloader =  inversefed.construct_dataloaders('CIFAR100', defs)
-        trainset, validset = _build_cifar100('./data/')
+        trainset, validset = _build_cifar100('~/data/')
 
         if len(opt.aug_list) > 0:
             policy_list = split(opt.aug_list)
         else:
             policy_list = []
-        if not valid:
+        # if not valid:
+        if not valid and len(opt.aug_list) > 0:
             trainset.transform = build_transform(True, policy_list, opt, defs)
         trainloader = torch.utils.data.DataLoader(trainset, batch_size=defs.batch_size,
-                    shuffle=True, drop_last=False, num_workers=4, pin_memory=True)
+                    shuffle=True, drop_last=False, num_workers=2, pin_memory=True)
 
 
-        if valid:
+        # if valid:
+        if valid and len(opt.aug_list) > 0:
             validset.transform = build_transform(True, policy_list, opt, defs)
         validloader = torch.utils.data.DataLoader(validset, batch_size=defs.batch_size,
-                shuffle=False, drop_last=False, num_workers=4, pin_memory=True)
+                shuffle=False, drop_last=False, num_workers=2, pin_memory=True)
 
         return loss_fn, trainloader, validloader
 
@@ -144,12 +146,12 @@ def preprocess(opt, defs, valid=False):
         tlist = policy_list if not valid else list()
         trainset.transform = build_transform(True, tlist, opt, defs)
         trainloader = torch.utils.data.DataLoader(trainset, batch_size=defs.batch_size,
-                    shuffle=True, drop_last=False, num_workers=4, pin_memory=True)
+                    shuffle=True, drop_last=False, num_workers=2, pin_memory=True)
 
         tlist = list() if not valid else policy_list
         validset.transform = build_transform(True, tlist, opt, defs)
         validloader = torch.utils.data.DataLoader(validset, batch_size=defs.batch_size,
-                shuffle=False, drop_last=False, num_workers=4, pin_memory=True)
+                shuffle=False, drop_last=False, num_workers=2, pin_memory=True)
 
         return loss_fn, trainloader, validloader
     else:

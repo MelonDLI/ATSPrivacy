@@ -38,6 +38,10 @@ parser.add_argument('--mode', default=None, required=True, type=str, help='Mode.
 parser.add_argument('--rlabel', default=False, type=bool, help='remove label.')
 parser.add_argument('--evaluate', default=False, type=bool, help='Evaluate')
 
+parser.add_argument('--MoEx', default=False,type=bool, help='MoEx or not')
+parser.add_argument('--moex_prob', default=0.5,type=float, help='moex_probability')
+parser.add_argument('--lam', default=0.9,type=float, help='loss proportion')
+
 opt = parser.parse_args()
 
 # init env
@@ -52,10 +56,16 @@ assert mode in ['normal', 'aug', 'crop']
 
 
 def create_save_dir():
-    return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    if not opt.MoEx:
+        return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    else:
+        return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+
 
 
 def main():
+    if opt.MoEx:
+        print("MoEx mode")
     setup = inversefed.utils.system_startup()
     defs = inversefed.training_strategy('conservative'); defs.epochs = opt.epochs
     loss_fn, trainloader, validloader = preprocess(opt, defs)
@@ -67,7 +77,7 @@ def main():
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     file = f'{save_dir}/{arch}_{defs.epochs}.pth'
-    inversefed.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir)
+    inversefed.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir, MoEx=opt.MoEx, opt=opt)
     torch.save(model.state_dict(), f'{file}')
     model.eval()
 

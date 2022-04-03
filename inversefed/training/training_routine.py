@@ -11,14 +11,14 @@ from .. import consts
 from ..consts import BENCHMARK, NON_BLOCKING
 torch.backends.cudnn.benchmark = BENCHMARK
 
-def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch.float, device=torch.device('cpu')), save_dir=None):
+def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch.float, device=torch.device('cpu')), save_dir=None, MoEx=False,opt=None):
     """Run the main interface. Train a network with specifications from the Strategy object."""
     stats = defaultdict(list)
     optimizer, scheduler = set_optimizer(model, defs)
     print('starting to training model')
     for epoch in range(defs.epochs):
         model.train()
-        step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats)
+        step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats,MoEx,opt)
 
         if epoch % defs.validate == 0 or epoch == (defs.epochs - 1):
             model.eval()
@@ -26,7 +26,8 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
             # Print information about loss and accuracy
             print_status(epoch, loss_fn, optimizer, stats)
             if save_dir is not None:
-                file = f'{save_dir}/{epoch}.pth'
+                # file = f'{save_dir}/{epoch}.pth'
+                file = f'{save_dir}/model.pth'
                 torch.save(model.state_dict(), f'{file}')
 
         if defs.dryrun:
@@ -37,7 +38,7 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
 
     return stats
 
-def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats):
+def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, MoEx, opt):
     """Step through one epoch."""
     dm = torch.as_tensor(consts.cifar10_mean, **setup)[:, None, None]
     ds = torch.as_tensor(consts.cifar10_std, **setup)[:, None, None]
@@ -49,9 +50,32 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats):
         # Transfer to GPU
         inputs = inputs.to(**setup)
         targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
-        # Get loss
-        outputs = model(inputs)
+        if MoEx:
+            # print('MoEx train')
+            lam = opt.lam
+            r = np.random.rand(1)
+            if r < opt.moex_prob: # switch moments
+                # generate mixed sample
+                rand_index = torch.randperm(inputs.size()[0]).cuda()
+                target_a = targets
+                target_b = targets[rand_index]
+                input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
+                input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
+                target_a_var = torch.autograd.Variable(target_a)
+                target_b_var = torch.autograd.Variable(target_b)
+                outputs = model(input_a_var, input_b_var)
+                loss_a, _, _ = loss_fn(outputs, target_a_var)
+                loss_b, _, _ = loss_fn(outputs, target_b_var)
+                loss = lam*loss_a + (1-lam)*loss_b
+            else: # or do not switch MoEx
+                outputs = model(inputs)
+        else: # Original ResNet
+            outputs = model(inputs)
         loss, _, _ = loss_fn(outputs, targets)
+
+        # Get loss
+        # outputs = model(inputs)
+        # loss, _, _ = loss_fn(outputs, targets)
 
 
         epoch_loss += loss.item()

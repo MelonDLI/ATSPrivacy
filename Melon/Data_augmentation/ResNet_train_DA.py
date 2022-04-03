@@ -16,12 +16,16 @@ setup = utils.system_startup()
 parser = argparse.ArgumentParser(description='Train or evaluate the model by accuracy.')
 parser.add_argument('--arch', default='ResNet20-4', type=str, help='Vision model.')
 parser.add_argument('--data', default='cifar100', type=str, help='Vision dataset.')
+parser.add_argument('--MoEx',default=False, type=bool, help='True for Moment Exchange mode')
 parser.add_argument('--epochs', default=100, type=int, help='Vision epoch.')
 parser.add_argument('--rlabel', default=False, type=bool, help='remove label.')
 parser.add_argument('--evaluate', default=False, type=bool, help='Evaluate')
 parser.add_argument('--aug_list', default=None, required=True, type=str, help='Augmentation method.')
-parser.add_argument('--Moments', default=False,type=bool, help='Switch Moments or not')
+# parser.add_argument('--Moments', default=False,type=bool, help='Switch Moments or not')
 parser.add_argument('--mode', default=None, required=True, type=str, help='Mode.')
+parser.add_argument('--save_dir',default=None, required=True, type=str, help='save path/directory')
+parser.add_argument('--moex_prob', default=0.5,type=float, help='moex_probability')
+parser.add_argument('--lam', default=0.9,type=float, help='loss proportion')
 
 opt = parser.parse_args()
 arch = opt.arch
@@ -29,7 +33,8 @@ mode = opt.mode
 assert mode in ['normal', 'aug', 'crop']
 
 def create_save_dir():
-    return 'checkpoints/data_{}_arch_{}_rlabel_{}'.format(opt.data, opt.arch, opt.rlabel)
+    # return 'checkpoints/data_{}_arch_{}_rlabel_{}'.format(opt.data, opt.arch, opt.rlabel)
+    return opt.save_dir
 
 
 def main():
@@ -44,7 +49,9 @@ def main():
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     file = f'{save_dir}/{arch}_{defs.epochs}.pth'
-    training_routine.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir)
+    metric_list = training_routine.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir,MoEx=opt.MoEx, opt=opt)
+    np.save('{}/loss_accuracy_metric.npy'.format(save_dir), metric_list)  #! save accuracy and loss result
+
     torch.save(model.state_dict(), f'{file}')
     model.eval()
 

@@ -12,8 +12,6 @@ import argparse
 
 num_images = 1
 setup = utils.system_startup()
-# TODO opt
-# config = create_config(opt)
 
 # cifar10_mean = [0.4914672374725342, 0.4822617471218109, 0.4467701315879822]
 # cifar10_std = [0.24703224003314972, 0.24348513782024384, 0.26158785820007324]
@@ -106,7 +104,7 @@ def main():
 
     model.eval()
     
-    sample_list = [i for i in range(100)]
+    sample_list = [i for i in range(100)]  #! attack 100 images
     metric_list = list()
     mse_loss = 0
     save_dir = opt.save_dir

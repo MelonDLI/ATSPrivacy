@@ -34,6 +34,7 @@ parser.add_argument('--arch', default=None, required=True, type=str, help='Visio
 parser.add_argument('--data', default=None, required=True, type=str, help='Vision dataset.')
 parser.add_argument('--epochs', default=None, required=True, type=int, help='Vision epoch.')
 parser.add_argument('--resume', default=0, type=int, help='rlabel')
+parser.add_argument('--MoEx', default =False, type=bool,help='MoEx or not')
 
 opt = parser.parse_args()
 num_images = 1
@@ -54,7 +55,11 @@ config = create_config(opt)
 
 
 def create_save_dir():
-    return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+    if not opt.MoEx:
+        return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+            opt.aug_list, opt.rlabel)
+    else:
+        return 'benchmark/images/MoEx_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
 
 
@@ -125,10 +130,14 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
 
 
 def create_checkpoint_dir():
-    return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
-
+    if not opt.MoEx:
+        return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    else:
+        return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
 
 def main():
+    if opt.MoEx:
+        print('MoEx mode')
     global trained_model
     print(opt)
     loss_fn, trainloader, validloader = preprocess(opt, defs, valid=True)
@@ -141,8 +150,9 @@ def main():
         checkpoint_dir = create_checkpoint_dir()
         if 'normal' in checkpoint_dir:
             checkpoint_dir = checkpoint_dir.replace('normal', 'crop')
-        filename = os.path.join(checkpoint_dir, str(defs.epochs) + '.pth')
-
+        # filename = os.path.join(checkpoint_dir, str(defs.epochs) + '.pth')
+        filename = os.path.join(checkpoint_dir,f'{opt.arch}_{defs.epochs}.pth')
+        print(filename)
         if not os.path.exists(filename):
             filename = os.path.join(checkpoint_dir, str(defs.epochs - 1) + '.pth')
 
