@@ -176,7 +176,8 @@ def main():
     old_state_dict = copy.deepcopy(model.state_dict())
     # model.load_state_dict(torch.load('checkpoints/tiny_data_{}_arch_{}/{}.pth'.format(opt.data, opt.arch, opt.epochs)))
     # model.load_state_dict(torch.load('checkpoints/ResNet20-4_50.pth'))
-    model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/Melon/Data_augmentation/checkpoints/ResNet/ResNet20-4_200.pth'))
+    # model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/Melon/Data_augmentation/checkpoints/ResNet/ResNet20-4_200.pth'))
+    model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/checkpoints/MoEx_data_cifar100_arch_ResNet20-4_mode_aug_auglist__rlabel_False/ResNet20-4_200.pth'))
 
     model.eval()
     metric_list = list()

@@ -16,14 +16,15 @@ num_per_gpu = 20
 
 def write():
     for i in range(len(scheme_list) // num_per_gpu):
-        print('{')
+        # print('{')
         for idx in range(i*num_per_gpu, i*num_per_gpu + num_per_gpu):
             sch_list = [str(sch) for sch in scheme_list[idx]]
             suf = '-'.join(sch_list)
              
-            cmd = 'CUDA_VISIBLE_DEVICES={} python benchmark/search_transform_attack.py --aug_list={} --mode=aug --arch={} --data={} --epochs=100'.format(i%8, suf, opt.arch, opt.data)
+            # cmd = 'CUDA_VISIBLE_DEVICES={} python benchmark/search_transform_attack.py --aug_list={} --mode=aug --arch={} --data={} --epochs=100'.format(i%8, suf, opt.arch, opt.data)
+            cmd = 'singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list={} --mode=aug --arch={} --data={} --epochs=100'.format(suf, opt.arch, opt.data)
             print(cmd)
-        print('}&')
+        # print('}&')
 
 
 
@@ -31,7 +32,7 @@ def backtracing(num, scheme):
     for _ in range(8 * 10 * num_per_gpu):
         scheme = list()
         for i in range(3):
-            scheme.append(random.randint(-1, 50))
+            scheme.append(random.randint(-1, 49))
         new_policy = copy.deepcopy(scheme)
         for i in range(len(new_policy)):
             if -1 in new_policy:

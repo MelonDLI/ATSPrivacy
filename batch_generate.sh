@@ -1,1760 +1,1600 @@
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=50-35-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-32-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=24-5-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=1-22-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-21-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-2-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=14-32-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=0-44-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=34-29-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=11-9-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=35-16-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=16-42-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=15-35-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=15-24-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=23-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-20-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=30-17-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=33-32-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=37-45-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=37-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=21-26-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=16-32-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=17-25-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=42-50-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=28-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-35-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-10-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=23-28-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-18-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=25-17-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=27-50-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=19-14-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=1-50-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=38-0-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=33-3-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=39-5-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=26-3-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=6-49-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=27-49-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=4-8-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=41-39-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-49-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=37-10-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=43-31-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=3-14-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=12-4-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=38-34-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=17-9-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=26-10-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=42-0-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=18-24-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=50-39-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=26-17-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=46-41-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=3-8-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=49-14-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=25-38-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=39-7-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-11-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-24-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=8-10-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=34-28-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=26-28-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=23-49-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=28-17-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-21-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=16-44-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=30-38-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-16-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=46-33-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=36-28-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-12-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=11-16-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=36-23-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=35-11-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=28-30-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=47-3-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-33-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-8-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-23-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=10-38-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=11-48-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-13-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-43-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=33-30-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=16-12-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=15-32-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=31-43-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=45-31-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=31-21-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=13-20-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=31-15-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-20-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=3-35-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=44-46-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=30-18-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-5-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=14-43-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=12-12-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=41-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=11-42-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=29-22-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-3-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=2-7-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=46-11-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-6-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=8-6-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=32-10-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-18-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=14-18-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=49-8-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=12-22-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-45-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=42-24-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=4-13-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=50-2-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=47-9-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=23-38-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=41-24-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-20-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=1-30-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=23-16-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=3-14-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=5-32-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=35-12-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=30-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=41-44-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=44-29-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=17-11-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=21-11-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=41-33-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=14-15-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-0-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=48-37-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=34-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=24-14-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=10-25-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=21-27-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=18-24-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=49-20-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-8-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=48-7-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=15-17-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=34-9-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=46-17-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=4-50-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=45-34-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-37-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=17-38-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=23-17-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=8-32-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=45-10-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=45-13-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=30-13-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=17-36-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=8-28-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=22-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=39-16-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=49-19-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=31-2-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=49-16-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-15-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=42-14-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=44-43-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=35-35-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=36-25-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=31-15-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=36-42-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=15-14-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=8-37-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=20-32-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=36-34-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=7-19-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=29-5-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=44-2-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=16-34-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=27-48-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=28-36-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=10-41-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-38-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=28-25-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=17-10-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=37-48-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-22-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-24-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=49-17-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=49-40-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=5-21-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-10-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=5-34-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-46-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=34-24-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=44-44-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-3-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=26-5-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=20-25-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=8-17-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=15-43-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=49-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-39-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=38-15-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=13-32-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=0-34-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=8-49-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=7-40-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=29-46-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=22-13-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=3-37-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=35-3-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=16-2-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=34-15-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=6-28-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=12-0-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=44-23-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=3-22-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=5-15-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=46-1-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=17-30-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-43-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-4-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=0-6-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=46-8-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=28-40-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=45-25-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=7-2-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=26-18-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-28-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=3-44-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=23-18-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-40-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=50-28-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-6-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=4-19-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=6-45-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=11-14-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=16-3-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-29-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=28-15-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-25-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=31-15-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=11-27-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-35-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-4-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=2-22-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=39-29-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=29-25-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=13-47-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-48-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=20-43-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=44-27-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-11-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=12-8-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=19-10-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=5-3-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=15-45-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=19-3-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-21-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=24-35-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=32-15-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=11-12-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=26-30-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=50-35-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-0-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=18-5-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=48-31-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=20-13-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=6-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-20-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-25-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=19-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=0-0-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-0-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=42-43-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=4-36-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=33-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-19-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=49-1-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-29-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=27-5-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=14-18-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=4-30-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=39-29-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-29-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=43-43-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=42-9-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-7-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=38-6-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-7-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-12-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=14-49-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=30-45-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=26-17-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=4-9-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=34-9-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-23-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=1-18-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=8-25-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=17-39-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=44-11-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=21-44-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=41-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-48-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=24-49-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=28-3-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-45-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=29-50-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=28-3-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=3-6-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-19-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=20-18-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=34-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-4-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-39-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-3-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=3-0-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=19-35-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=21-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=9-5-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=2-28-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=27-36-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=18-34-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=13-7-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=6-1-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=28-16-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=12-12-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=31-33-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=15-39-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-47-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=47-31-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-13-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=35-15-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=24-29-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=7-6-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=4-4-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=31-18-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-4-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=32-20-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=36-45-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-7-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=28-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=34-27-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=1-16-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-13-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=27-14-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-2-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=21-45-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=44-6-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=32-38-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-27-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=21-21-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=44-5-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=30-37-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=24-42-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=22-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-15-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-30-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=27-48-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=46-35-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=26-1-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-49-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=46-29-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-27-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-39-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=15-19-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=18-17-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-24-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-35-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=45-46-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=14-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-41-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=43-36-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=43-33-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-25-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=7-17-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=44-10-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=27-41-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=49-35-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=2-17-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-47-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=28-3-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=50-20-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-45-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-16-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=42-28-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=32-3-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=15-2-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-12-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=4-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=2-36-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=10-23-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=49-34-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=6-8-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=35-15-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=2-36-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=37-19-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=10-18-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-46-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=27-16-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=48-15-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=43-2-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=0-21-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=20-32-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=47-28-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=2-30-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=3-24-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=17-10-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=32-13-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-28-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=40-22-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=1-39-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=5-39-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=1-3-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=15-29-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-7-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=17-3-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=3-8-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=18-5-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=33-34-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-34-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=39-10-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=49-50-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=19-23-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=36-13-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-18-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-50-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=48-23-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=28-21-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=46-17-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=5-39-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=46-33-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=30-41-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=44-36-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=48-27-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=7-49-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-45-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-23-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-2-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=32-20-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=26-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-10-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=43-2-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=8-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=14-31-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=45-18-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=41-3-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=9-34-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=16-20-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=42-19-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-16-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=27-47-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=1-37-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=22-39-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=44-27-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=41-17-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=1-21-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=30-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=44-20-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=49-35-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=28-33-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=18-26-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=45-23-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=7-24-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-23-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=38-13-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-40-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=49-5-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=25-8-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=32-9-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=30-29-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-7-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=50-26-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=48-10-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=42-7-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=28-34-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-8-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=2-35-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=44-41-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=47-2-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-46-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-48-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=11-28-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=32-5-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=29-35-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=43-48-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=37-47-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-38-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=3-47-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=8-34-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=41-15-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=24-12-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=33-42-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=22-7-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=12-48-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=47-40-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=2-48-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=31-13-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=31-0-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=37-16-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=40-12-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-21-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=19-31-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-3-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=26-22-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=35-0-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=22-30-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=26-13-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-24-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-34-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=38-9-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=16-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-40-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-18-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=15-39-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-3-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=40-8-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=36-11-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=16-45-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=49-27-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=43-22-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=47-25-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=2-19-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-28-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=10-23-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=37-17-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=41-7-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-7-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=0-39-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=14-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=36-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=38-21-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=30-46-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=28-5-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=7-12-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=6-29-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-43-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=15-9-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=50-6-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=23-35-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-49-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=36-12-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-31-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=13-27-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=37-7-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=0-10-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-2-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=39-35-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=34-48-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=9-0-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-47-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=10-43-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-27-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-33-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=9-20-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=21-31-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=16-8-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-14-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=40-15-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=34-14-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=44-14-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=50-41-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=47-9-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-44-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=0-40-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=15-39-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-38-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=9-7-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=1-42-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=47-22-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=40-8-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=37-27-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=19-19-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=9-46-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=41-23-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=43-21-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-30-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-33-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=32-13-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=36-1-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=0-32-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=26-41-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=44-28-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=35-38-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=37-22-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=43-33-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=28-22-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=40-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=3-9-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=22-40-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=34-13-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=40-32-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=2-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=42-29-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=28-12-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=35-24-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=0-32-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=22-17-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=42-20-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=17-44-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=41-31-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=31-45-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=49-9-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=2-46-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=17-22-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-21-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=25-34-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=22-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=35-17-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=21-48-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=6-5-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=1-0-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-34-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=7-25-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=31-50-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=0-28-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=48-25-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=3-4-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=37-23-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=33-38-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=39-23-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=41-38-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=33-46-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=28-44-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=17-43-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-10-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=16-14-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=3-6-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-3-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=27-18-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=49-44-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=4-1-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=35-2-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=14-22-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=3-48-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=23-44-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=14-18-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=6-49-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-20-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=28-3-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=32-1-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=1-36-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=46-49-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=13-15-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=30-44-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=1-32-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=18-5-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=11-50-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=46-34-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=6-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=22-10-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=43-46-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=19-39-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=45-31-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=8-28-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=31-40-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=38-6-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-4-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=4-3-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=47-1-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=44-6-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=36-31-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=0-8-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=35-42-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=47-28-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-2-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=15-45-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-43-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=20-13-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-1-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-31-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=4-47-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=28-11-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=10-4-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=21-41-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=44-19-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-45-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-39-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=18-26-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-47-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=17-49-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=34-20-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=3-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=8-25-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=49-7-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-7-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=15-7-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=16-26-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=14-47-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=21-32-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=28-0-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-19-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=2-29-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=46-1-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=7-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-33-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-43-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=45-40-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-12-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-45-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-7-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=50-36-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=10-4-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=30-32-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-15-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=42-49-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=42-20-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-27-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=16-34-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-5-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=37-6-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=10-29-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=15-37-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=6-8-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=33-17-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=9-11-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=50-0-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=32-32-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=17-30-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-2-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=30-43-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-34-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=1-0-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=19-17-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=15-18-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=38-6-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=27-21-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=17-12-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-50-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=34-24-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-28-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=27-30-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=21-3-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=20-44-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=32-34-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-10-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-24-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=17-34-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=2-21-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=3-20-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=22-18-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=39-13-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=13-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=33-17-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=42-22-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=48-11-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=40-21-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=44-46-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=17-18-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=46-16-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=28-2-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-1-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=5-26-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=1-38-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=50-38-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=49-28-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=32-25-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=7-29-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-36-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=33-2-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=50-36-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=43-38-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=50-20-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=40-33-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=5-34-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=26-6-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=48-39-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-34-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=38-39-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=11-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=32-1-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=25-2-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=42-26-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-42-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=36-44-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=36-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-47-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=30-48-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-37-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=50-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=2-31-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=5-37-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=42-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=15-49-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=4-26-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=5-34-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-39-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=11-20-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-38-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=49-8-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=15-13-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=36-6-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=44-11-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=35-31-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=7-11-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=22-42-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=42-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=44-50-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=29-13-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=16-1-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=5-3-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-47-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=34-9-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=21-41-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=43-11-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=0-44-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=22-10-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=4-19-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-26-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=20-28-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=27-23-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-37-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=39-39-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=49-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=24-15-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=19-27-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-46-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=1-1-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=10-13-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=21-31-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-33-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=50-41-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=2-10-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=42-28-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-30-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=19-1-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=32-40-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=16-37-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=8-0-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=16-13-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=9-22-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=41-40-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=11-3-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=40-31-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-19-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=23-16-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=16-22-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=37-41-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=10-17-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=6-25-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=50-0-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=45-16-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=15-42-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-13-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=27-15-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=9-24-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=39-46-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=16-50-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-26-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-23-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-12-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-41-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-25-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-1-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=22-44-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=13-11-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=14-10-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=37-46-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=15-36-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-28-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=8-4-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=5-21-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-21-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-17-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=30-7-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-33-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-10-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=12-44-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=2-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=35-40-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=7-28-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=24-17-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=9-10-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=27-9-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=28-26-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=47-38-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=21-44-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=11-35-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=1-9-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-17-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=37-20-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-13-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=28-42-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-35-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-25-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=32-24-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=47-20-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=43-46-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=32-33-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=16-43-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=20-36-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-34-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=19-19-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=12-16-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-40-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=39-39-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=20-30-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=29-19-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=44-31-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=47-8-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=32-25-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=4-3-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-26-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=3-21-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=43-30-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=30-33-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=49-38-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-34-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-26-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=18-36-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=35-16-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-35-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=19-11-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=18-29-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=13-8-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=2-27-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=26-14-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-41-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=45-23-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=25-0-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=3-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=24-11-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=45-13-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=38-5-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=46-37-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-18-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-4-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=10-34-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=22-43-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=30-15-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=24-9-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=9-45-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=11-28-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=25-9-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=7-11-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=17-37-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=8-42-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-10-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=10-21-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-39-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=5-2-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=34-45-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=37-28-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=36-35-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-14-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=24-14-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=1-5-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=45-34-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=10-33-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=7-43-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=42-39-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-36-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=30-25-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=24-32-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=40-21-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=40-38-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=0-39-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=28-42-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=37-47-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=49-37-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=20-22-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=10-39-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=43-19-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=7-49-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=13-41-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=33-16-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-11-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=12-13-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=41-37-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=20-43-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=36-25-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=42-7-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=15-40-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=32-13-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=30-16-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=17-36-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-27-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=44-17-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=35-38-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=23-31-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=1-6-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=31-31-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=15-28-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=21-41-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=16-33-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=34-40-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=32-50-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-29-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=41-33-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-34-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-39-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=13-36-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=23-38-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=43-39-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=29-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=26-33-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-14-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=30-47-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-19-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-17-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=44-24-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=12-15-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=49-16-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=40-46-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-34-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=36-42-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=43-41-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=35-34-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=45-4-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-48-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=32-4-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=9-46-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=46-22-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-23-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=27-19-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-50-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-9-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=2-19-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=18-42-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=5-17-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=7-37-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-25-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-11-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-16-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-35-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=25-15-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-22-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=43-35-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=50-43-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=40-8-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=38-46-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=30-30-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=4-22-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-32-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=33-30-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-1-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=40-50-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=14-13-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-20-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=46-47-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=27-5-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=45-37-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-49-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=24-8-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=24-17-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=29-50-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=40-23-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=5-44-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-11-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=45-18-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=22-25-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=49-28-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=41-34-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=49-38-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-21-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=19-15-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=31-37-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-47-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=4-31-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=33-50-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-38-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=28-23-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=42-45-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=16-28-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-12-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=16-11-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=25-10-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=30-22-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=43-19-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=44-35-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=28-20-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=15-42-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=34-44-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=40-2-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=21-9-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-32-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=43-46-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=7-43-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=3-15-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-1-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-23-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-13-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=16-50-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=13-10-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=35-13-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=22-32-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=36-17-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=18-2-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=28-42-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=10-9-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=12-47-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=18-38-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=27-0-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-28-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=9-17-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=16-28-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=23-48-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=43-42-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-0-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=8-32-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=39-25-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=13-7-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=23-19-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=46-49-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=39-13-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=49-45-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-1-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=42-5-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=2-13-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=40-47-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=3-42-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=47-19-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=38-9-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=31-0-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=46-40-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-36-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=11-48-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=46-14-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=48-34-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=19-27-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=1-50-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=35-28-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=26-29-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=33-28-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=30-41-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-35-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=1-5-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=17-26-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-48-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=6-18-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-30-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=22-20-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-49-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=50-9-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=15-40-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=46-32-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=8-32-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=0-23-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=36-26-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=9-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=6-36-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-35-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=13-41-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=4-42-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=30-17-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=50-9-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-13-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=11-20-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-30-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=1-43-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-21-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=7-29-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=11-38-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=35-38-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=39-7-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-34-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=29-29-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=30-11-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=9-11-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=36-15-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=35-29-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=0-46-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=22-15-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-35-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-6-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=30-44-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=36-7-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=0-38-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-2-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=24-15-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=34-10-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=1-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=47-16-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-42-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=13-33-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-10-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=41-43-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=3-27-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-37-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=26-19-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=10-29-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=32-34-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-20-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=41-16-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=5-21-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=49-16-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=46-6-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=24-7-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=13-41-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=44-24-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=11-44-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=30-0-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-18-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=46-45-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=41-35-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-37-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-37-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=42-48-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=48-44-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=12-44-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=30-23-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=47-1-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=27-1-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-39-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=47-13-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=0-48-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-5-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=50-35-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=22-34-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=44-2-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=29-31-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-43-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=22-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-17-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=48-38-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=47-19-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-2-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=6-27-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=3-20-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-24-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-32-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=6-31-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=50-5-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=18-11-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=34-49-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-23-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=39-4-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=49-24-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=3-14-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=13-29-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=1-28-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=10-5-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=2-33-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=7-26-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=25-49-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=31-32-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=8-31-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=10-14-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-33-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=39-11-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-1-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=15-50-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=14-1-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=21-47-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=41-3-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=48-15-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=1-9-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=13-15-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=23-31-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=0-25-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=11-33-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=38-34-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-10-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=21-31-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=32-27-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=38-15-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=9-38-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=4-9-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-13-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=35-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=1-36-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=19-27-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=31-18-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=30-26-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-0-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=39-4-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=29-41-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=24-13-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=8-46-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=37-40-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=37-30-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=40-39-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=1-37-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=38-31-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=49-48-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=16-45-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=5-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=46-35-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=36-39-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=13-36-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=5-6-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=29-24-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=26-29-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=32-21-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=4-13-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=34-47-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=18-42-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=6-12-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=31-21-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=50-4-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=41-37-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=46-44-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=7-49-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=13-0-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-37-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=19-14-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=17-8-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=0-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=40-20-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=46-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-40-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=47-32-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=42-2-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=17-42-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=17-1-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=22-24-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=38-23-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=50-16-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=8-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=11-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=44-11-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=35-27-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=18-43-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=4-14-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=40-30-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-23-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=14-20-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-30-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=48-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=37-8-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=5-26-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=3-38-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=28-4-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-9-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-34-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=4-14-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=7-35-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-16-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=50-9-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=4-50-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=43-49-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=25-21-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=33-2-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=50-27-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-6-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=15-17-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=44-12-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=5-18-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=42-6-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=0-1-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=43-45-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=20-32-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=2-8-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=11-10-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=7-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-0-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-1-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=30-44-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=35-29-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=0-43-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-19-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=9-11-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=39-24-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=24-47-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-35-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=37-29-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-35-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=15-30-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=25-35-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-42-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-31-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=24-26-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=24-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=19-43-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=25-36-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-18-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=7-25-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=24-21-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-22-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=49-17-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=41-15-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=27-20-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-25-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=5-26-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=33-37-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=22-42-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-35-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=5-31-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=9-1-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=38-46-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=21-24-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=41-12-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=34-24-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=15-9-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-40-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-19-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-21-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-48-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=14-6-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=25-19-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=22-13-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=16-1-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-33-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=10-31-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=13-33-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=16-47-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-47-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=5-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=1-35-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=38-38-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=40-32-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=50-47-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=32-23-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=35-29-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=10-35-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=5-4-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=7-45-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=1-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=21-46-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-6-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=24-35-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=32-26-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=27-42-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=19-23-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=19-6-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=47-24-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=37-49-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=42-9-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=7-9-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=4-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=6-13-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=47-32-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=39-3-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=46-7-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=10-29-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=21-23-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=10-40-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=0-19-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=28-12-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=10-17-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=43-34-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-49-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=22-28-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=3-44-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=8-40-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=17-6-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=39-47-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=45-25-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=18-39-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=5-42-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=15-3-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=0 python benchmark/search_transform_attack.py --aug_list=43-34-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-47-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-50-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=35-20-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=27-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=29-20-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=37-19-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=10-23-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=22-14-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=43-39-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=3-19-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=50-22-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=24-19-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=30-18-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=27-41-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=4-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=11-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=48-6-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=35-37-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=1 python benchmark/search_transform_attack.py --aug_list=20-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=45-17-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=8-28-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=47-37-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=0-43-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=4-36-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=5-11-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=22-26-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=7-17-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=32-35-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=0-23-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=20-16-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=19-46-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=11-17-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=13-1-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=10-46-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=33-34-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=39-25-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-10-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=35-35-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=2 python benchmark/search_transform_attack.py --aug_list=31-43-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=46-7-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=37-24-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=39-42-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=5-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=26-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=22-21-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=36-5-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=31-2-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=22-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=19-40-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=5-41-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=21-41-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=47-42-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=38-40-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=8-37-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=36-19-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=48-31-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=10-27-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=40-25-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=3 python benchmark/search_transform_attack.py --aug_list=43-6-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=20-14-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=48-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-39-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-24-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=3-16-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=33-28-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=14-48-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=22-47-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=49-17-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=45-29-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=46-13-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=12-13-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-5-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=46-35-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=36-8-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=8-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=18-45-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=5-29-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=6-32-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=4 python benchmark/search_transform_attack.py --aug_list=6-16-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=42-21-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=10-41-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=1-46-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=17-38-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=46-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=47-47-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-28-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=6-40-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-39-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=35-23-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=23-39-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=38-19-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=34-21-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=5-13-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=50-26-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=14-38-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=2-24-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=36-44-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=15-7-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=5 python benchmark/search_transform_attack.py --aug_list=12-29-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=21-44-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=21-21-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=26-17-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=4-38-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=12-30-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=2-46-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=41-48-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=37-22-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=18-5-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=47-4-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=26-10-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=46-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=11-29-50 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=29-29-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=50-2-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-1-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=36-7-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=6 python benchmark/search_transform_attack.py --aug_list=20-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
-{
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-4-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=34-39-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=48-30-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=14-45-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=21-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=47-43-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=33-38-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-23-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=19-38-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=15-6-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=21-30-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=5-8-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=26-21-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=19-23-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=28-17-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=22-27-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=35-7-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=37-13-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-CUDA_VISIBLE_DEVICES=7 python benchmark/search_transform_attack.py --aug_list=11-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
-}&
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-15-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-23-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-5-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-39-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-28-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-35-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-47-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-1-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-12-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-19-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-10-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-40-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-5-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-19-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-0-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-9-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-27-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-12-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-27-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-45-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-29-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-4-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-19-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-27-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-33-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-42-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-9-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-47-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-28-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-39-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-14-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-8-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-3-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-24-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-7-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-35-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-36-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-44-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-13-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-20-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-48-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-9-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-40-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-32-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-20-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-47-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-28-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-47-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-3-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-41-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-35-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-41-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-47-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-40-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-36-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-13-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-45-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-9-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-1-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-23-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-22-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-49-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-31-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-16-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-46-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-27-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-25-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-21-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-17-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-15-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-10-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-12-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-49-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-45-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-7-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-48-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-9-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-35-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-17-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-6-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-1-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-9-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-6-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-47-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-14-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-29-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-27-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-6-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-5-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-14-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-36-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-37-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-10-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-32-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-40-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-45-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-12-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-46-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-32-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-33-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-26-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-32-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-46-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-16-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-8-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-21-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-25-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-40-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-27-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-15-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-20-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-22-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-18-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-7-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-10-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-39-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-7-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-0-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-14-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-0-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-11-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-17-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-49-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-13-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-20-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-9-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-22-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-0-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-11-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-15-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-4-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-48-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-32-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-49-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-41-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-7-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-25-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-21-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-37-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-4-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-38-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-24-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-6-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-30-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-47-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-43-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-15-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-0-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-17-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-15-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-43-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-26-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-39-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-1-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-8-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-49-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-14-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-29-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-6-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-10-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-35-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-13-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-28-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-13-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-45-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-21-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-26-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-26-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-43-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-2-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-1-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-37-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-49-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-47-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-20-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-43-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-27-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-18-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-28-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-23-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-5-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-36-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-6-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-36-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-25-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-2-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-33-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-4-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-27-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-11-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-7-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-37-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-0-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-39-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-32-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-36-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-3-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-17-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-30-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-36-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-26-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-18-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-24-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-36-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-39-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-28-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-43-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-3-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-25-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-28-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-5-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-18-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-0-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-31-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-23-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-33-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-5-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-1-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-27-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-26-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-21-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-30-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-14-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-34-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-46-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-17-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-1-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-20-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-35-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-13-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-41-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-37-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-39-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-9-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-36-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-29-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-47-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-28-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-35-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-13-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-20-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-10-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-32-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-3-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-9-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-42-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-8-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-46-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-25-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-48-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-4-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-43-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-21-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-14-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-7-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-34-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-47-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-11-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-15-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-0-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-27-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-43-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-31-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-28-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-49-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-44-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-3-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-23-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-39-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-18-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-8-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-34-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-23-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-17-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-18-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-46-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-43-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-20-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-34-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-45-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-11-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-5-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-31-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-40-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-21-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-7-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-42-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-49-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-11-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-43-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-7-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-30-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-40-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-33-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-13-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-24-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-3-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-6-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-35-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-10-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-1-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-13-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-14-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-25-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-4-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-39-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-41-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-37-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-10-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-42-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-14-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-17-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-11-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-6-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-49-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-4-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-0-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-9-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-48-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-37-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-14-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-14-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-5-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-46-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-28-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-44-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-11-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-31-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-27-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-20-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-8-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-7-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-18-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-24-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-18-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-29-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-22-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-11-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-5-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-9-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-18-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-27-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-4-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-4-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-23-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-24-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-44-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-6-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-46-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-27-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-3-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-38-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-45-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-28-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-31-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-24-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-40-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-41-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-42-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-8-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-13-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-21-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-25-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-41-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-0-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-40-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-48-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-33-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-8-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-2-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-30-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-48-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-34-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-14-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-9-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-10-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-47-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-42-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-17-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-7-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-2-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-34-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-10-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-24-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-25-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-27-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-12-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-7-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-44-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-47-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-22-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-26-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-25-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-43-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-46-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-25-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-28-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-2-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-3-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-36-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-17-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-10-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-7-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-16-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-49-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-30-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-5-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-19-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-28-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-34-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-36-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-18-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-24-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-27-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-47-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-35-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-48-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-24-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-14-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-3-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-16-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-38-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-42-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-45-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-46-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-33-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-43-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-9-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-3-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-45-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-18-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-13-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-29-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-29-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-10-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-3-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-17-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-41-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-16-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-43-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-19-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-32-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-19-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-47-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-6-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-34-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-37-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-33-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-30-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-44-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-8-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-39-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-43-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-5-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-33-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-41-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-0-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-48-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-42-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-35-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-23-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-27-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-34-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-8-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-1-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-19-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-41-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-49-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-33-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-33-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-16-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-44-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-39-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-31-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-13-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-17-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-13-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-45-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-2-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-19-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-46-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-2-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-9-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-2-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-2-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-34-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-43-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-5-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-4-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-22-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-24-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-34-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-13-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-27-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-27-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-33-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-32-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-19-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-28-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-44-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-22-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-7-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-33-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-46-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-15-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-21-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-11-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-4-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-13-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-36-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-5-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-1-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-13-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-32-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-24-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-32-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-9-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-8-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-8-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-45-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-34-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-48-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-6-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-25-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-33-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-37-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-23-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-33-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-2-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-24-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-7-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-10-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-4-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-0-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-22-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-30-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-30-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-29-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-32-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-46-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-4-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-25-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-14-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-6-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-16-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-14-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-19-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-48-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-47-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-32-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-25-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-46-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-21-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-26-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-34-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-22-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-30-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-13-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-0-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-23-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-19-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-8-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-18-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-7-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-21-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-6-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-30-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-22-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-45-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-2-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-34-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-37-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-40-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-49-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-43-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-29-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-42-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-33-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-41-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-1-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-24-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-32-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-22-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-18-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-29-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-1-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-36-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-34-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-44-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-13-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-40-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-46-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-26-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-9-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-10-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-25-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-3-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-8-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-6-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-13-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-43-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-8-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-37-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-19-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-10-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-38-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-49-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-18-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-0-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-13-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-48-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-39-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-19-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-38-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-32-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-35-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-32-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-7-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-39-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-21-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-28-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-8-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-36-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-45-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-2-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-18-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-44-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-27-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-10-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-43-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-26-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-36-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-8-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-39-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-3-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-26-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-27-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-24-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-7-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-17-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-41-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-13-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-7-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-35-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-23-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-36-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-45-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-46-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-9-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-49-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-36-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-0-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-40-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-23-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-41-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-20-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-7-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-15-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-5-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-44-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-39-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-37-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-10-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-4-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-14-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-7-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-21-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-15-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-4-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-40-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-0-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-3-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-4-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-7-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-30-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-35-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-43-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-12-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-8-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-21-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-27-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-15-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-30-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-29-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-49-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-14-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-27-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-34-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-44-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-2-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-31-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-32-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-3-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-1-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-38-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-38-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-17-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-2-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-2-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-43-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-49-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-21-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-19-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-16-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-11-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-11-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-43-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-32-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-49-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-43-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-41-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-37-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-28-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-30-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-8-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-44-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-4-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-11-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-45-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-31-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-31-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-30-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-30-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-47-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-14-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-47-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-10-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-11-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-25-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-43-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-21-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-47-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-5-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-33-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-38-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-15-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-2-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-30-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-15-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-42-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-11-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-36-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-16-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-34-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-29-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-11-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-5-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-35-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-24-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-8-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-18-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-39-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-38-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-7-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-10-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-11-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-49-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-4-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-17-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-44-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-48-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-21-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-49-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-10-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-46-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-32-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-10-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-44-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-4-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-37-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-28-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-5-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-23-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-8-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-10-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-41-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-40-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-42-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-42-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-4-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-34-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-3-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-41-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-13-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-38-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-32-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-13-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-11-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-6-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-26-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-37-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-3-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-1-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-35-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-15-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-41-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-0-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-37-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-15-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-44-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-25-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-13-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-47-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-23-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-7-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-12-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-41-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-34-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-18-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-42-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-8-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-0-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-24-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-10-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-5-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-37-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-33-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-5-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-33-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-13-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-19-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-0-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-49-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-26-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-19-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-48-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-13-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-47-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-48-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-27-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-28-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-24-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-33-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-46-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-37-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-43-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-48-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-29-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-28-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-49-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-14-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-9-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-7-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-49-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-42-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-29-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-16-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-37-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-39-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-46-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-44-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-48-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-28-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-18-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-9-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-7-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-16-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-25-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-45-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-0-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-9-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-38-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-31-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-37-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-20-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-20-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-31-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-49-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-3-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-3-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-21-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-17-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-31-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-4-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-9-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-5-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-10-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-16-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-13-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-20-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-25-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-29-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-10-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-23-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-30-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-34-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-8-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-46-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-4-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-37-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-24-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-36-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-1-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-46-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-3-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-9-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-18-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-18-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-31-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-0-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-11-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-41-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-23-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-14-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-41-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-21-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-48-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-8-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-36-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-29-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-29-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-8-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-21-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-44-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-49-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-18-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-33-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-43-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-27-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-9-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-23-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-18-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-28-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-6-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-37-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-15-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-19-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-37-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-1-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-19-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-11-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-24-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-40-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-49-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-27-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-0-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-7-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-33-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-42-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-17-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-38-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-0-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-48-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-10-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-47-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-46-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-48-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-16-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-28-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-4-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-18-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-47-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-25-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-36-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-37-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-33-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-20-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-20-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-8-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-19-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-6-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-21-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-42-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-25-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-30-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-8-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-15-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-47-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-32-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-41-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-45-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-33-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-18-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-29-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-29-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-41-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-8-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-0-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-48-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-40-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-22-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-11-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-37-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-9-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-23-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-8-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-29-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-29-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-24-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-7-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-43-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-13-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-28-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-41-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-44-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-16-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-11-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-14-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-13-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-17-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-39-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-18-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-41-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-5-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-5-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-17-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-43-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-11-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-5-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-33-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-26-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-37-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-46-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-5-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-35-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-38-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-5-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-48-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-12-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-38-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-25-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-45-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-36-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-18-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-34-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-38-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-43-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-32-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-11-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-30-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-43-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-41-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-47-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-41-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-28-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-38-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-30-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-29-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-36-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-8-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-22-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-40-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-23-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-24-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-7-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-3-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-24-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-19-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-7-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-7-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-21-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-1-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-36-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-30-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-46-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-38-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-27-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-38-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-17-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-23-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-31-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-9-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-7-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-38-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-40-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-18-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-49-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-18-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-24-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-48-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-37-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-36-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-45-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-41-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-38-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-36-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-11-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-27-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-38-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-32-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-23-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-49-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-34-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-20-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-42-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-3-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-1-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-15-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-29-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-14-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-29-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-48-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-33-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-49-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-19-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-6-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-11-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-15-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-23-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-24-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-21-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-32-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-32-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-4-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-43-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-13-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-32-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-46-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-20-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-11-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-43-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-2-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-41-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-48-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-29-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-14-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-23-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-33-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-49-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-23-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-4-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-1-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-22-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-14-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-25-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-24-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-9-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-11-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-14-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-8-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-19-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-33-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-36-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-2-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-0-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-3-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-45-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-37-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-14-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-15-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-45-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-38-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-36-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-43-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-1-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-38-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-31-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-3-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-25-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-1-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-39-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-27-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-12-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-42-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-5-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-13-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-19-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-16-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-23-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-37-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-35-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-39-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-41-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-12-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-33-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-34-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-18-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-17-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-38-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-27-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-42-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-5-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-46-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-16-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-46-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-45-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-41-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-14-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-24-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-21-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-33-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-27-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-17-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-4-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-1-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-12-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-25-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-22-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-1-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-34-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-41-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-5-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-8-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-27-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-14-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-19-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-18-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-12-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-49-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-4-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-45-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-2-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-42-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-33-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-8-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-26-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-4-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-41-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-9-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-28-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-13-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-12-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-11-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-29-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-8-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-44-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-30-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-6-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-19-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-7-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-48-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-26-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-20-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-30-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-24-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-46-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-13-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-48-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-45-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-16-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-22-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-33-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-41-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-33-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-1-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-43-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-0-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-48-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-5-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-39-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-41-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-31-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-27-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-34-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-46-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-39-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-1-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-31-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-44-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-7-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-34-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-44-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-4-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-15-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-20-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-31-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-17-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-2-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-18-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-24-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-10-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-22-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-13-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-32-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-6-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-43-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-12-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-8-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-26-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-2-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-6-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-6-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-14-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-31-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-2-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-20-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-6-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-42-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-49-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-40-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-1-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-43-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-21-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-35-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-23-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-2-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-10-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-6-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-29-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-26-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-11-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-6-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-6-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-12-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-41-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-27-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-39-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-44-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-47-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-29-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-40-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-45-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-49-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-17-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-36-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-21-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-30-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-8-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-29-41 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-43-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-43-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-28-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-30-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-25-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-40-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-18-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-39-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-41-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-28-42 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-39-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-10-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-11-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-39-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-37-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-40-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-32-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-18-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=17-22-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-46-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-24-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-39-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-23-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-11-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-14-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-19-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-34-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-6-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-15-37 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-19-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-21-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-24-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-11-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-20-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-19-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-31-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=46-31-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-30-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-13-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-17-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-47-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-36-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-27-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-22-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-45-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-9-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-9-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-9-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-4-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-3-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-7-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-37-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-44-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-42-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-22-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=39-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-38-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-0-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-33-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-36-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-39-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-2-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-18-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-47-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-39-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-41-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-26-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-30-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=11-2-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-40-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-33-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-40-22 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-31-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-12-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-38-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-42-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-41-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-1-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-41-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-43-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-37-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-30-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=16-45-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-48-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-29-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-0-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-40-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-43-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-45-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-25-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-37-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-36-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-28-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-8-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-27-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-47-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-43-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-21-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-40-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-19-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-41-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-48-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-7-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-48-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-16-17 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=20-15-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-32-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-27-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-16-25 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-2-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-12-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-37-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-6-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-47-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-5-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=18-31-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-26-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-1-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-25-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-38-3 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-15-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-48-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-29-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-23-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=32-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-20-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-33-46 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-37-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-35-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-14-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-28-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-14-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-42-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-7-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-20-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=34-2-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-46-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-10-48 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=5-37-32 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-34-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-35-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-48-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-31-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-19-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=44-16-10 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=19-28-19 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=2-25-33 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-48-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=8-36-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-39-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-28-44 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=48-7-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-8-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-35-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=4-38-21 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-3-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-38-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-6-23 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-48-11 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-37-43 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=6-0-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=35-1-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=0-14-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=15-48-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-41-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=31-8-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-17-28 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=10-16-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-17-0 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=13-35-40 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-49-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=28-21-31 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=47-16-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-46-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-20-20 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-4-13 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-42-8 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=30-48-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-46-34 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=42-31-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-32-12 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=49-25-14 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-9-7 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=43-6-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-8-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-8-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=23-35-29 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=26-49-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=36-32-15 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-29-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-4-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=37-24-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=40-40-5 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=27-19-35 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=1-40-45 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=25-41-49 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=45-26-1 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=14-24-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-38-38 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=33-3-39 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=38-29-36 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-5-2 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=7-27-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=3-18-47 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=41-7-9 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-47-30 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=29-36-24 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-49-4 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=12-4-18 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
