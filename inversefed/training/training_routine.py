@@ -2,6 +2,8 @@
 
 import torch
 import numpy as np
+from torch.autograd import Variable
+import torch.nn as nn
 
 from collections import defaultdict
 
@@ -11,14 +13,22 @@ from .. import consts
 from ..consts import BENCHMARK, NON_BLOCKING
 torch.backends.cudnn.benchmark = BENCHMARK
 
-def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch.float, device=torch.device('cpu')), save_dir=None, MoEx=False,opt=None):
+def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch.float, device=torch.device('cpu')), save_dir=None, opt=None):
     """Run the main interface. Train a network with specifications from the Strategy object."""
     stats = defaultdict(list)
     optimizer, scheduler = set_optimizer(model, defs)
     print('starting to training model')
+    
+    if opt.MoEx:
+        print('Mode: MoEx')
+    if opt.Mixup:
+        print('Mode: Mixup')
+    if not opt.MoEx and not opt.Mixup:
+        print('Mode: Regular without MoEx and Mixup')
+    print('-----------------------------------------------')
     for epoch in range(defs.epochs):
         model.train()
-        step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats,MoEx,opt)
+        step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats, opt)
 
         if epoch % defs.validate == 0 or epoch == (defs.epochs - 1):
             model.eval()
@@ -38,7 +48,9 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
 
     return stats
 
-def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, MoEx, opt):
+criterion = nn.CrossEntropyLoss()
+
+def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, opt):
     """Step through one epoch."""
     dm = torch.as_tensor(consts.cifar10_mean, **setup)[:, None, None]
     ds = torch.as_tensor(consts.cifar10_std, **setup)[:, None, None]
@@ -50,7 +62,7 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, M
         # Transfer to GPU
         inputs = inputs.to(**setup)
         targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
-        if MoEx:
+        if opt.MoEx:
             # print('MoEx train')
             lam = opt.lam
             r = np.random.rand(1)
@@ -69,9 +81,17 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, M
                 loss = lam*loss_a + (1-lam)*loss_b
             else: # or do not switch MoEx
                 outputs = model(inputs)
+                loss, _, _ = loss_fn(outputs, targets)
+        elif opt.Mixup:
+            #Mix up mode
+            inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, setup, opt.alpha)
+            inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
+            outputs = model(inputs)
+            loss = lam * criterion(outputs, targets_a) + (1 - lam) * criterion(outputs, targets_b)
+
         else: # Original ResNet
             outputs = model(inputs)
-        loss, _, _ = loss_fn(outputs, targets)
+            loss, _, _ = loss_fn(outputs, targets)
 
         # Get loss
         # outputs = model(inputs)
@@ -95,6 +115,24 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, M
 
     stats['train_losses'].append(epoch_loss / (batch + 1))
     stats['train_' + name].append(epoch_metric / (batch + 1))
+
+
+def mixup_data(x, y,setup, alpha=1.0):
+    '''Returns mixed inputs, pairs of targets, and lambda'''
+    if alpha > 0:
+        lam = np.random.beta(alpha, alpha)
+    else:
+        lam = 1
+
+    batch_size = x.size()[0]
+
+    index = torch.randperm(batch_size)
+    index = index.long()
+    # index = index.to(**setup)
+
+    mixed_x = lam * x + (1 - lam) * x[index, :]
+    y_a, y_b = y, y[index]
+    return mixed_x, y_a, y_b, lam
 
 
 def validate(model, loss_fn, dataloader, defs, setup, stats):

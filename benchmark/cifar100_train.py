@@ -38,9 +38,15 @@ parser.add_argument('--mode', default=None, required=True, type=str, help='Mode.
 parser.add_argument('--rlabel', default=False, type=bool, help='remove label.')
 parser.add_argument('--evaluate', default=False, type=bool, help='Evaluate')
 
+# MoEx
 parser.add_argument('--MoEx', default=False,type=bool, help='MoEx or not')
 parser.add_argument('--moex_prob', default=0.5,type=float, help='moex_probability')
 parser.add_argument('--lam', default=0.9,type=float, help='loss proportion')
+
+# Mix up
+parser.add_argument('--Mixup',default=False, type=bool,help='Mix up or not')
+parser.add_argument('--alpha', default=1., type=float,
+                    help='mixup interpolation coefficient (default: 1)')
 
 opt = parser.parse_args()
 
@@ -56,16 +62,20 @@ assert mode in ['normal', 'aug', 'crop']
 
 
 def create_save_dir():
-    if not opt.MoEx:
-        return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
-    else:
+    if opt.MoEx:
         return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    elif opt.Mixup:
+         return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    else:
+        return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
 
 
 
 def main():
     if opt.MoEx:
         print("MoEx mode")
+    if opt.Mixup:
+        print("Mixup mode")
     setup = inversefed.utils.system_startup()
     defs = inversefed.training_strategy('conservative'); defs.epochs = opt.epochs
     loss_fn, trainloader, validloader = preprocess(opt, defs)
@@ -77,7 +87,7 @@ def main():
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     file = f'{save_dir}/{arch}_{defs.epochs}.pth'
-    metric_list=inversefed.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir, MoEx=opt.MoEx, opt=opt)
+    metric_list=inversefed.train(model, loss_fn, trainloader, validloader, defs, setup=setup, save_dir=save_dir, opt=opt)
     np.save('{}/loss_accuracy_metric.npy'.format(save_dir), metric_list)  #! save accuracy and loss result
     torch.save(model.state_dict(), f'{file}')
     model.eval()

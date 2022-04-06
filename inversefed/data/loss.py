@@ -132,3 +132,4 @@ class LabelSmoothing(nn.Module):
         true_dist.scatter_(1, target.data.unsqueeze(1), self.confidence)
         self.true_dist = true_dist
         return self.criterion(x, true_dist.detach())
+

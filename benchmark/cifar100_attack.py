@@ -34,7 +34,9 @@ parser.add_argument('--arch', default=None, required=True, type=str, help='Visio
 parser.add_argument('--data', default=None, required=True, type=str, help='Vision dataset.')
 parser.add_argument('--epochs', default=None, required=True, type=int, help='Vision epoch.')
 parser.add_argument('--resume', default=0, type=int, help='rlabel')
+
 parser.add_argument('--MoEx', default =False, type=bool,help='MoEx or not')
+parser.add_argument('--Mixup',default=False, type=bool,help='Mix up or not')
 
 opt = parser.parse_args()
 num_images = 1
@@ -55,12 +57,15 @@ config = create_config(opt)
 
 
 def create_save_dir():
-    if not opt.MoEx:
-        return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
-            opt.aug_list, opt.rlabel)
-    else:
+    if opt.MoEx:
         return 'benchmark/images/MoEx_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
+    elif opt.Mixup:
+        return 'benchmark/images/Mixup_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+        opt.aug_list, opt.rlabel)
+    else:
+        return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+            opt.aug_list, opt.rlabel)
 
 
 def reconstruct(idx, model, loss_fn, trainloader, validloader):
@@ -130,14 +135,18 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
 
 
 def create_checkpoint_dir():
-    if not opt.MoEx:
-        return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
-    else:
+    if opt.MoEx:
         return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
-
+    elif opt.Mixup:
+        return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    else:
+        return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+        
 def main():
     if opt.MoEx:
         print('MoEx mode')
+    if opt.Mixup:
+        print('Mixup mode')
     global trained_model
     print(opt)
     loss_fn, trainloader, validloader = preprocess(opt, defs, valid=True)
