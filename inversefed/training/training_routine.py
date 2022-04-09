@@ -62,7 +62,32 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
         # Transfer to GPU
         inputs = inputs.to(**setup)
         targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
-        if opt.MoEx:
+        if opt.MoEx and opt.Mixup:
+            lam = opt.lam
+            r = np.random.rand(1)
+            if r < opt.moex_prob: # switch moments
+                # generate mixed sample
+                rand_index = torch.randperm(inputs.size()[0]).cuda()
+                target_a = targets
+                target_b = targets[rand_index]
+                input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
+                input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
+                target_a_var = torch.autograd.Variable(target_a)
+                target_b_var = torch.autograd.Variable(target_b)
+                outputs = model(input_a_var, input_b_var)
+                loss_a, _, _ = loss_fn(outputs, target_a_var)
+                loss_b, _, _ = loss_fn(outputs, target_b_var)
+                loss = lam*loss_a + (1-lam)*loss_b
+            else: # or do not switch MoEx
+                outputs = model(inputs)
+                loss, _, _ = loss_fn(outputs, targets)
+            
+            inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, setup, opt.alpha)
+            inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
+            outputs = model(inputs)
+            loss_mixup= lam * criterion(outputs, targets_a) + (1 - lam) * criterion(outputs, targets_b)
+            loss = loss +loss_mixup
+        elif opt.MoEx:
             # print('MoEx train')
             lam = opt.lam
             r = np.random.rand(1)

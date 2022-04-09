@@ -3,7 +3,7 @@
 #SBATCH --mail-type=END,FAIL                    # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --mail-user=dan.li@anu.edu.au         # Where to send mail
 #SBATCH --ntasks=2                              # Run on a single CPU
-#SBATCH --mem=32gb                               # Job memory request
+#SBATCH --mem=16gb                               # Job memory request
 #SBATCH --time=24:00:00                         # Time limit hrs:min:sec
 #SBATCH --partition=teaching                        # Partition to schedule to
 #SBATCH --gres=gpu:1     				        # Request a GPU allocation
@@ -13,7 +13,7 @@
 pwd; hostname; date
 echo "--- starting ---"
 # Job commands here
-echo "MoEx epoch 200 search#2"
+echo "Mixup search#2"
 
 singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=21-48-27 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
 singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=9-34-26 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100

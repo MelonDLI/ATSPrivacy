@@ -177,8 +177,9 @@ def main():
     # model.load_state_dict(torch.load('checkpoints/tiny_data_{}_arch_{}/{}.pth'.format(opt.data, opt.arch, opt.epochs)))
     # model.load_state_dict(torch.load('checkpoints/ResNet20-4_50.pth'))
     # model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/Melon/Data_augmentation/checkpoints/ResNet/ResNet20-4_200.pth'))
-    model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/checkpoints/MoEx_data_cifar100_arch_ResNet20-4_mode_aug_auglist__rlabel_False/ResNet20-4_200.pth'))
-
+    # model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/checkpoints/MoEx_data_cifar100_arch_ResNet20-4_mode_aug_auglist__rlabel_False/ResNet20-4_200.pth'))
+    model.load_state_dict(torch.load('/home/remote/u7076589/ATSPrivacy/checkpoints/Mixup_search_data_cifar100_arch_ResNet20-4_mode_aug_auglist__rlabel_False/ResNet20-4_5.pth'))
+    # ! change model
     model.eval()
     metric_list = list()
 
@@ -193,7 +194,7 @@ def main():
             metric_list.append(metric)
             print('attach {}th in {}, metric {}'.format(attack_id, opt.aug_list, metric))
 
-    pathname = 'search/data_{}_arch_{}/{}'.format(opt.data, opt.arch, opt.aug_list)
+    pathname = 'search/data_{}_arch_{}/{}'.format(opt.data, opt.arch, opt.aug_list) #! change path
     root_dir = os.path.dirname(pathname)
     if not os.path.exists(root_dir):
         os.makedirs(root_dir)

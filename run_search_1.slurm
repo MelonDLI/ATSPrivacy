@@ -3,7 +3,7 @@
 #SBATCH --mail-type=END,FAIL                    # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --mail-user=dan.li@anu.edu.au         # Where to send mail
 #SBATCH --ntasks=2                              # Run on a single CPU
-#SBATCH --mem=32gb                               # Job memory request
+#SBATCH --mem=16gb                               # Job memory request
 #SBATCH --time=24:00:00                         # Time limit hrs:min:sec
 #SBATCH --partition=teaching                        # Partition to schedule to
 #SBATCH --gres=gpu:1     				        # Request a GPU allocation

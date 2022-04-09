@@ -13,7 +13,7 @@
 pwd; hostname; date
 echo "--- starting ---"
 # Job commands here
-echo "MoEx epoch 200 search#4"
+echo "Mixup search#4"
 
 singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=22-6 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100
 singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python benchmark/search_transform_attack.py --aug_list=24-29-16 --mode=aug --arch=ResNet20-4 --data=cifar100 --epochs=100

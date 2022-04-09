@@ -57,7 +57,10 @@ config = create_config(opt)
 
 
 def create_save_dir():
-    if opt.MoEx:
+    if opt.MoEx and opt.Mixup:
+        return 'benchmark/images/MixupMoex_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+        opt.aug_list, opt.rlabel)
+    elif opt.MoEx:
         return 'benchmark/images/MoEx_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
     elif opt.Mixup:
