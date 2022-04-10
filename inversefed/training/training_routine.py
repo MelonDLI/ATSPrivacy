@@ -132,53 +132,13 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
         loss.backward()
 
         if opt.add_defense:
-            if opt.noise_position=='middle' and epoch>=defs.epochs/4 and epoch<=defs.epoch*3/4:
-                #! add defense at the second stage of training
-                if 'gaussian' in opt.defense:
-                    if '1e-3' in opt.defense:
-                        add_noise(model, 1e-3)
-                    elif '1e-2' in opt.defense:
-                        add_noise(model, 1e-2)
-                    else:
-                        raise NotImplementedError
-                # elif 'lap' in opt.defense:
-                #     if '1e-3'  in opt.defense:
-                #         lap_noise(model, 1e-3)
-                #     elif '1e-2' in opt.defense:
-                #         lap_noise(model, 1e-2)
-                #     elif '1e-1' in opt.defense:
-                #         lap_noise(model, 1e-1)
-                #     else:
-                #         raise NotImplementedError
-                
-                elif 'prune' in opt.defense:
-                    found = False
-                    for i in [10, 20, 30, 50, 70, 80, 90, 95, 99]:
-                        if str(i) in opt.defense:
-                            found=True
-                            global_prune(model, i)
-
-                    if not found:
-                        raise NotImplementedError
             if opt.noise_position=='first' and epoch<defs.epochs/4:
-                if 'gaussian' in opt.defense:
-                    if '1e-3' in opt.defense:
-                        add_noise(model, 1e-3)
-                    elif '1e-2' in opt.defense:
-                        add_noise(model, 1e-2)
-                    else:
-                        raise NotImplementedError
-                
-                elif 'prune' in opt.defense:
-                    found = False
-                    for i in [10, 20, 30, 50, 70, 80, 90, 95, 99]:
-                        if str(i) in opt.defense:
-                            found=True
-                            global_prune(model, i)
-
-                    if not found:
-                        raise NotImplementedError
-
+                add_defense(opt)
+            if opt.noise_position=='middle' and epoch>=defs.epochs/4 and epoch<=defs.epochs*3/4:
+                add_defense(opt)
+            if opt.noise_position=='final' and epoch>=defs.epochs*3/4:
+                add_defense(opt)
+            
         optimizer.step()
 
         metric, name, _ = loss_fn.metric(outputs, targets)
@@ -194,7 +154,34 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
     stats['train_losses'].append(epoch_loss / (batch + 1))
     stats['train_' + name].append(epoch_metric / (batch + 1))
 
+def add_defense(opt):
+    #! add defense at the second stage of training
+    if 'gaussian' in opt.defense:
+        if '1e-3' in opt.defense:
+            add_noise(model, 1e-3)
+        elif '1e-2' in opt.defense:
+            add_noise(model, 1e-2)
+        else:
+            raise NotImplementedError
+    elif 'lap' in opt.defense:
+        if '1e-3'  in opt.defense:
+            lap_noise(model, 1e-3)
+        elif '1e-2' in opt.defense:
+            lap_noise(model, 1e-2)
+        elif '1e-1' in opt.defense:
+            lap_noise(model, 1e-1)
+        else:
+            raise NotImplementedError
+        
+    elif 'prune' in opt.defense:
+        found = False
+        for i in [10, 20, 30, 50, 70, 80, 90, 95, 99]:
+            if str(i) in opt.defense:
+                found=True
+                global_prune(model, i)
 
+        if not found:
+            raise NotImplementedError
 def mixup_data(x, y,setup, alpha=1.0):
     '''Returns mixed inputs, pairs of targets, and lambda'''
     if alpha > 0:
