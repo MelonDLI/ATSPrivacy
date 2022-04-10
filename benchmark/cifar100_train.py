@@ -85,6 +85,8 @@ def main():
         print("MoEx mode")
     if opt.Mixup:
         print("Mixup mode")
+    if opt.add_defense:
+        print(opt.defense)
     setup = inversefed.utils.system_startup()
     defs = inversefed.training_strategy('conservative'); defs.epochs = opt.epochs
     loss_fn, trainloader, validloader = preprocess(opt, defs)

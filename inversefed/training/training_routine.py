@@ -133,33 +133,32 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
 
         if opt.add_defense:
             #! add defense at the second stage of training
-            if epoch >= defs.epochs*3/4:
-                if 'gaussian' in opt.defense:
-                    if '1e-3' in opt.defense:
-                        add_noise(model, 1e-3)
-                    elif '1e-2' in opt.defense:
-                        add_noise(model, 1e-2)
-                    else:
-                        raise NotImplementedError
-                elif 'lap' in opt.defense:
-                    if '1e-3'  in opt.defense:
-                        lap_noise(model, 1e-3)
-                    elif '1e-2' in opt.defense:
-                        lap_noise(model, 1e-2)
-                    elif '1e-1' in opt.defense:
-                        lap_noise(model, 1e-1)
-                    else:
-                        raise NotImplementedError
-                
-                elif 'prune' in opt.defense:
-                    found = False
-                    for i in [10, 20, 30, 50, 70, 80, 90, 95, 99]:
-                        if str(i) in opt.defense:
-                            found=True
-                            global_prune(model, i)
+            if 'gaussian' in opt.defense:
+                if '1e-3' in opt.defense:
+                    add_noise(model, 1e-3)
+                elif '1e-2' in opt.defense:
+                    add_noise(model, 1e-2)
+                else:
+                    raise NotImplementedError
+            elif 'lap' in opt.defense:
+                if '1e-3'  in opt.defense:
+                    lap_noise(model, 1e-3)
+                elif '1e-2' in opt.defense:
+                    lap_noise(model, 1e-2)
+                elif '1e-1' in opt.defense:
+                    lap_noise(model, 1e-1)
+                else:
+                    raise NotImplementedError
+            
+            elif 'prune' in opt.defense:
+                found = False
+                for i in [10, 20, 30, 50, 70, 80, 90, 95, 99]:
+                    if str(i) in opt.defense:
+                        found=True
+                        global_prune(model, i)
 
-                    if not found:
-                        raise NotImplementedError
+                if not found:
+                    raise NotImplementedError
             
 
         optimizer.step()

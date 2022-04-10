@@ -35,9 +35,15 @@ parser.add_argument('--data', default=None, required=True, type=str, help='Visio
 parser.add_argument('--epochs', default=None, required=True, type=int, help='Vision epoch.')
 parser.add_argument('--resume', default=0, type=int, help='rlabel')
 
+#MoEx
 parser.add_argument('--MoEx', default =False, type=bool,help='MoEx or not')
+#Mixup
 parser.add_argument('--Mixup',default=False, type=bool,help='Mix up or not')
-
+# defense
+parser.add_argument('--add_defense',default=False,type=bool,help='add defense or not')
+parser.add_argument('--defense', action='store',
+                    type=str, nargs='*', default=['prune','95'],
+                    help="defense type")
 opt = parser.parse_args()
 num_images = 1
 
@@ -58,7 +64,7 @@ config = create_config(opt)
 
 def create_save_dir():
     if opt.add_defense:
-        return 'benchmark/images/MMD_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+        return 'benchmark/images/MMD_defense_{}_{}_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
     if opt.MoEx and opt.Mixup:
         return 'benchmark/images/MixupMoex_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
@@ -164,6 +170,8 @@ def main():
         print('MoEx mode')
     if opt.Mixup:
         print('Mixup mode')
+    if opt.add_defense:
+        print(opt.defense)
     global trained_model
     print(opt)
     loss_fn, trainloader, validloader = preprocess(opt, defs, valid=True)
