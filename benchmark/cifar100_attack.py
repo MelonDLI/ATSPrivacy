@@ -44,6 +44,9 @@ parser.add_argument('--add_defense',default=False,type=bool,help='add defense or
 parser.add_argument('--defense', action='store',
                     type=str, nargs='*', default=['prune','95'],
                     help="defense type")
+parser.add_argument('--second',default=True,type=bool,help='add noise to second half')
+parser.add_argument('--noise_position',default='middle',type=str,help='where add noise to model training')
+
 opt = parser.parse_args()
 num_images = 1
 
@@ -64,8 +67,13 @@ config = create_config(opt)
 
 def create_save_dir():
     if opt.add_defense:
-        return 'benchmark/images/MMD_defense_{}_{}_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
-        opt.aug_list, opt.rlabel)
+        if opt.second:
+            return 'benchmark/images/MMD_defense_{}_{}_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+            opt.aug_list, opt.rlabel)
+        else:
+            return 'benchmark/images/MMD_defense_{}_{}_{}_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.noise_position, opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+            opt.aug_list, opt.rlabel)
+
     if opt.MoEx and opt.Mixup:
         return 'benchmark/images/MixupMoex_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)

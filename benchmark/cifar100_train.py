@@ -52,6 +52,7 @@ parser.add_argument('--lam', default=0.9,type=float, help='loss proportion')
 parser.add_argument('--Mixup',default=False, type=bool,help='Mix up or not')
 parser.add_argument('--alpha', default=1., type=float,
                     help='mixup interpolation coefficient (default: 1)')
+parser.add_argument('--noise_position',default='middle',type=str,help='where add noise to model training')
 
 opt = parser.parse_args()
 
@@ -68,7 +69,7 @@ assert mode in ['normal', 'aug', 'crop']
 
 def create_save_dir():
     if opt.add_defense:
-        return 'checkpoints/MMD_defense2_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+        return 'checkpoints/MMD_defense_{}_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.noise_position,opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     if opt.MoEx and opt.Mixup:
         return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.MoEx:
