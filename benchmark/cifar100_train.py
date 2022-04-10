@@ -68,7 +68,7 @@ assert mode in ['normal', 'aug', 'crop']
 
 def create_save_dir():
     if opt.add_defense:
-        return 'checkpoints/MMD_defense_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+        return 'checkpoints/MMD_defense2_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     if opt.MoEx and opt.Mixup:
         return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.MoEx:

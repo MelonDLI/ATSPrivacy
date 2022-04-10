@@ -131,7 +131,7 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
 
         loss.backward()
 
-        if opt.add_defense:
+        if opt.add_defense and epoch>=defs.epochs/2:
             #! add defense at the second stage of training
             if 'gaussian' in opt.defense:
                 if '1e-3' in opt.defense:
