@@ -18,7 +18,8 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
     stats = defaultdict(list)
     optimizer, scheduler = set_optimizer(model, defs)
     print('starting to training model')
-    
+    arch = opt.arch
+
     if opt.MoEx:
         print('Mode: MoEx')
     if opt.Mixup:
@@ -28,18 +29,21 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
     print('-----------------------------------------------')
     for epoch in range(defs.epochs):
         model.train()
-        step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats, opt)
-
+        step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats, opt,epoch)
+        # #!save
+        # if save_dir is not None:
+        #     file = f'{save_dir}/{arch}_{epoch+1}.pth'
+        #     # file = f'{save_dir}/model.pth'
+        #     torch.save(model.state_dict(), f'{file}')
         if epoch % defs.validate == 0 or epoch == (defs.epochs - 1):
             model.eval()
             validate(model, loss_fn, validloader, defs, setup, stats)
             # Print information about loss and accuracy
             print_status(epoch, loss_fn, optimizer, stats)
-            if save_dir is not None:
-                # file = f'{save_dir}/{epoch}.pth'
-                file = f'{save_dir}/model.pth'
-                torch.save(model.state_dict(), f'{file}')
-
+            # if save_dir is not None:
+                # file = f'{save_dir}/{arch}_{epoch+1}.pth'
+                # file = f'{save_dir}/model.pth'
+                # torch.save(model.state_dict(), f'{file}')
         if defs.dryrun:
             break
         if not (np.isfinite(stats['train_losses'][-1])):
@@ -50,7 +54,7 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
 
 criterion = nn.CrossEntropyLoss()
 
-def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, opt):
+def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, opt,epoch):
     """Step through one epoch."""
     dm = torch.as_tensor(consts.cifar10_mean, **setup)[:, None, None]
     ds = torch.as_tensor(consts.cifar10_std, **setup)[:, None, None]
@@ -126,6 +130,38 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
         epoch_loss += loss.item()
 
         loss.backward()
+
+        if opt.add_defense:
+            #! add defense at the second stage of training
+            if epoch >= defs.epochs*3/4:
+                if 'gaussian' in opt.defense:
+                    if '1e-3' in opt.defense:
+                        add_noise(model, 1e-3)
+                    elif '1e-2' in opt.defense:
+                        add_noise(model, 1e-2)
+                    else:
+                        raise NotImplementedError
+                elif 'lap' in opt.defense:
+                    if '1e-3'  in opt.defense:
+                        lap_noise(model, 1e-3)
+                    elif '1e-2' in opt.defense:
+                        lap_noise(model, 1e-2)
+                    elif '1e-1' in opt.defense:
+                        lap_noise(model, 1e-1)
+                    else:
+                        raise NotImplementedError
+                
+                elif 'prune' in opt.defense:
+                    found = False
+                    for i in [10, 20, 30, 50, 70, 80, 90, 95, 99]:
+                        if str(i) in opt.defense:
+                            found=True
+                            global_prune(model, i)
+
+                    if not found:
+                        raise NotImplementedError
+            
+
         optimizer.step()
 
         metric, name, _ = loss_fn.metric(outputs, targets)

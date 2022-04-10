@@ -37,6 +37,11 @@ parser.add_argument('--aug_list', default=None, required=True, type=str, help='A
 parser.add_argument('--mode', default=None, required=True, type=str, help='Mode.')
 parser.add_argument('--rlabel', default=False, type=bool, help='remove label.')
 parser.add_argument('--evaluate', default=False, type=bool, help='Evaluate')
+# defense
+parser.add_argument('--add_defense',default=False,type=bool,help='add defense or not')
+parser.add_argument('--defense', action='store',
+                    type=str, nargs='*', default=['prune','95'],
+                    help="defense type")
 
 # MoEx
 parser.add_argument('--MoEx', default=False,type=bool, help='MoEx or not')
@@ -62,6 +67,8 @@ assert mode in ['normal', 'aug', 'crop']
 
 
 def create_save_dir():
+    if opt.add_defense:
+        return 'checkpoints/MMD_defense_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     if opt.MoEx and opt.Mixup:
         return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.MoEx:

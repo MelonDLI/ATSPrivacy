@@ -57,6 +57,9 @@ config = create_config(opt)
 
 
 def create_save_dir():
+    if opt.add_defense:
+        return 'benchmark/images/MMD_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+        opt.aug_list, opt.rlabel)
     if opt.MoEx and opt.Mixup:
         return 'benchmark/images/MixupMoex_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
@@ -122,7 +125,7 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
         os.makedirs(save_dir)
 
     torchvision.utils.save_image(output_denormalized.cpu().clone(), '{}/rec_{}.jpg'.format(save_dir, idx))
-    torchvision.utils.save_image(input_denormalized.cpu().clone(), '{}/ori_{}.jpg'.format(save_dir, idx))
+    # torchvision.utils.save_image(input_denormalized.cpu().clone(), '{}/ori_{}.jpg'.format(save_dir, idx))
 
 
     test_mse = (output_denormalized.detach() - input_denormalized).pow(2).mean().cpu().detach().numpy()
@@ -138,13 +141,24 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
 
 
 def create_checkpoint_dir():
-    if opt.MoEx:
+    # if opt.MoEx:
+    #     return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    # elif opt.Mixup:
+    #     return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    # else:
+    #     return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    if opt.add_defense:
+        return 'checkpoints/MMD_defense_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    if opt.MoEx and opt.Mixup:
+        return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    elif opt.MoEx:
         return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.Mixup:
-        return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+         return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     else:
         return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
-        
+
+
 def main():
     if opt.MoEx:
         print('MoEx mode')
