@@ -81,7 +81,7 @@ def create_save_dir():
     # else:
     #     return 'benchmark_copy/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
     #         opt.aug_list, opt.rlabel)
-    return 'benchmark_copy/images'
+    return 'benchmark_copy/images_2'
 
 
 def reconstruct(idx, model, loss_fn, trainloader, validloader):
@@ -142,7 +142,7 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
     else:
         method = ''
     torchvision.utils.save_image(output_denormalized.cpu().clone(), '{}/{}_rec_{}_{}.jpg'.format(save_dir, idx,method,opt.aug_list))
-    # torchvision.utils.save_image(input_denormalized.cpu().clone(), '{}/{}_ori_{}_{}.jpg'.format(save_dir, idx,method,opt.aug_list))
+    torchvision.utils.save_image(input_denormalized.cpu().clone(), '{}/{}_ori.jpg'.format(save_dir, idx))
 
 
     test_mse = (output_denormalized.detach() - input_denormalized).pow(2).mean().cpu().detach().numpy()
@@ -230,7 +230,7 @@ def main():
         method = 'Mixup'
     else:
         method = ''
-    np.save('{}/metric_{}_{}.npy'.format(save_dir), metric_list, method, opt.aug_list)
+    np.save('{}/metric_{}_{}.npy'.format(save_dir, method, opt.aug_list),metric_list)
 
 
 
