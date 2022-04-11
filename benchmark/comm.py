@@ -115,8 +115,8 @@ def preprocess(opt, defs, valid=False):
 
 
         # if valid:
-        if valid and len(opt.aug_list) > 0:
-            validset.transform = build_transform(True, policy_list, opt, defs)
+        # if valid and len(opt.aug_list) > 0:
+        #     validset.transform = build_transform(True, policy_list, opt, defs)
         validloader = torch.utils.data.DataLoader(validset, batch_size=defs.batch_size,
                 shuffle=False, drop_last=False, num_workers=2, pin_memory=True)
 

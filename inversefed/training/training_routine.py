@@ -133,11 +133,11 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
 
         if opt.add_defense:
             if opt.noise_position=='first' and epoch<defs.epochs/4:
-                add_defense(opt)
+                add_defense(opt,model)
             if opt.noise_position=='middle' and epoch>=defs.epochs/4 and epoch<=defs.epochs*3/4:
-                add_defense(opt)
+                add_defense(opt,model)
             if opt.noise_position=='final' and epoch>=defs.epochs*3/4:
-                add_defense(opt)
+                add_defense(opt,model)
             
         optimizer.step()
 
@@ -154,7 +154,7 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
     stats['train_losses'].append(epoch_loss / (batch + 1))
     stats['train_' + name].append(epoch_metric / (batch + 1))
 
-def add_defense(opt):
+def add_defense(opt,model):
     #! add defense at the second stage of training
     if 'gaussian' in opt.defense:
         if '1e-3' in opt.defense:
@@ -182,6 +182,7 @@ def add_defense(opt):
 
         if not found:
             raise NotImplementedError
+
 def mixup_data(x, y,setup, alpha=1.0):
     '''Returns mixed inputs, pairs of targets, and lambda'''
     if alpha > 0:

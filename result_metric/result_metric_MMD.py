@@ -11,7 +11,8 @@ def set_attack_model():
     # return '/home/remote/u7076589/ATSPrivacy/benchmark/images/data_cifar100_arch_ResNet20-4' #!change
     # return '/home/remote/u7076589/ATSPrivacy/benchmark/images/MMD_defense_prune_95_data_cifar100_arch_ResNet20-4_epoch_200_optim_inversed_mode_aug_auglist__rlabel_False/metric.npy'
     # return '/home/remote/u7076589/ATSPrivacy/benchmark/images/MMD_defense_prune_99_data_cifar100_arch_ResNet20-4_epoch_200_optim_inversed_mode_aug_auglist__rlabel_False/metric.npy'
-    return '/home/remote/u7076589/ATSPrivacy/benchmark/images/MMD_defense_prune_95_data_cifar100_arch_ResNet20-4_epoch_200_optim_inversed_mode_aug_auglist__rlabel_False/metric.npy'
+    return '/home/remote/u7076589/ATSPrivacy/benchmark/images/MMD_defense_prune_95_first_data_cifar100_arch_ResNet20-4_epoch_200_optim_inversed_mode_aug_auglist__rlabel_False/metric.npy'
+    # return '/home/remote/u7076589/ATSPrivacy/benchmark/images/MMD_defense_prune_95_data_cifar100_arch_ResNet20-4_epoch_200_optim_inversed_mode_aug_auglist__rlabel_False/metric.npy'
 def save_plot(stats,path):
     # psnr
     fig, ax = plt.subplots(figsize=[8,6])
