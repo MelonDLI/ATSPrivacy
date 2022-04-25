@@ -163,7 +163,7 @@ def main():
     img0 = next(iter(val_data_0))
     
     data_set = ImageDatasetFromFile(image_list, image_list_rec, data_path)
-    val_data = DataLoader(data_set,batch_size=1,shuffle=False)
+    val_data = DataLoader(data_set,batch_size=10,shuffle=False)
     i=1
     ssim_metric_list = list()
 
@@ -171,9 +171,16 @@ def main():
         ###################
         #mixup
         ##################
-        # mixup_data(img, i, alpha=1.0)
-        # print(i)
-        # i+=1
+        rand_index = torch.randperm(inputs.size()[0]).cuda()
+        target_a = targets
+        target_b = targets[rand_index]
+        input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
+        input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
+        target_a_var = torch.autograd.Variable(target_a)
+        target_b_var = torch.autograd.Variable(target_b)
+
+        print(i)
+        i+=1
         ##################
         # SSIM
         ##################

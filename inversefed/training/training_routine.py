@@ -19,11 +19,14 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
     optimizer, scheduler = set_optimizer(model, defs)
     print('starting to training model')
     arch = opt.arch
+    
 
     if opt.MoEx:
         print('Mode: MoEx')
     if opt.Mixup:
         print('Mode: Mixup')
+        # MIXUP 
+        print("alpha:{}_{}".format(opt.alpha,opt.alpha*10))
     if not opt.MoEx and not opt.Mixup:
         print('Mode: Regular without MoEx and Mixup')
     print('-----------------------------------------------')
@@ -188,8 +191,8 @@ def mixup_data(x, y,setup, alpha=1.0):
     if alpha > 0:
         lam = np.random.beta(alpha, alpha)
     else:
-        lam = 1
-
+        # lam = 1
+        lam = 0.1
     batch_size = x.size()[0]
 
     index = torch.randperm(batch_size)

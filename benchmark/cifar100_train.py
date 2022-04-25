@@ -71,11 +71,11 @@ def create_save_dir():
     if opt.add_defense:
         return 'checkpoints/MMD_defense_{}_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.noise_position,opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     if opt.MoEx and opt.Mixup:
-        return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+        return 'checkpoints/MixupMoex_alpha_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.alpha,opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.MoEx:
         return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.Mixup:
-         return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+         return 'checkpoints/Mixup_alpha_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.alpha,opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     else:
         return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
 

@@ -114,7 +114,7 @@ if __name__ == '__main__':
     plt.ylabel('PSNR')
     plt.ylim(ymin=5,ymax=20)
     plt.xlabel('SSIM')
-    plt.xlim(xmin=0)
+    plt.xlim(xmin=0,xmax=0.05)
     plt.legend(loc="upper right")
     plt.savefig('{}/psnr_ssim_blank.jpg'.format(save_dir))
     plt.close()

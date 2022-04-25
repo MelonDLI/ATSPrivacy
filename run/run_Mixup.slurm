@@ -7,14 +7,14 @@
 #SBATCH --time=24:00:00                         # Time limit hrs:min:sec
 #SBATCH --partition=teaching                        # Partition to schedule to
 #SBATCH --gres=gpu:1     				        # Request a GPU allocation
-#SBATCH --output=ATSprivacy_Mixup_3-1-7+43-18-18_%j.log                 # Standard output and error log
+#SBATCH --output=Mixup_3-1-7+43-18-18_%j.log                 # Standard output and error log
 #SBATCH --qos=teachingproject
 
 pwd; hostname; date
 echo "--- starting ---"
 # Job commands here
 echo " Mixup 3-1-7+43-18-18 privacy-preserving evaluation"
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/cifar100_train.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --Mixup=True
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/cifar100_attack.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed' --Mixup=True
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/cifar100_train.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --Mixup=True --alpha=0
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/attack_copy.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed' --Mixup=True --alpha=0
 echo "--- done ---"
 date

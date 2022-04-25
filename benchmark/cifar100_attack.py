@@ -39,6 +39,8 @@ parser.add_argument('--resume', default=0, type=int, help='rlabel')
 parser.add_argument('--MoEx', default =False, type=bool,help='MoEx or not')
 #Mixup
 parser.add_argument('--Mixup',default=False, type=bool,help='Mix up or not')
+parser.add_argument('--alpha', default=1., type=float,
+                    help='mixup interpolation coefficient (default: 1)')
 # defense
 parser.add_argument('--add_defense',default=False,type=bool,help='add defense or not')
 parser.add_argument('--defense', action='store',
@@ -70,13 +72,13 @@ def create_save_dir():
             opt.aug_list, opt.rlabel)
 
     if opt.MoEx and opt.Mixup:
-        return 'benchmark/images/MixupMoex_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+        return 'benchmark/images/MixupMoex_alpha_{}_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.alpha,opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
     elif opt.MoEx:
         return 'benchmark/images/MoEx_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
     elif opt.Mixup:
-        return 'benchmark/images/Mixup_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
+        return 'benchmark/images/Mixup_alpha_{}_data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.alpha,opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \
         opt.aug_list, opt.rlabel)
     else:
         return 'benchmark/images/data_{}_arch_{}_epoch_{}_optim_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.epochs, opt.optim, opt.mode, \

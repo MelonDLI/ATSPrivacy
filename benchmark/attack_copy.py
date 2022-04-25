@@ -39,6 +39,8 @@ parser.add_argument('--resume', default=0, type=int, help='rlabel')
 parser.add_argument('--MoEx', default =False, type=bool,help='MoEx or not')
 #Mixup
 parser.add_argument('--Mixup',default=False, type=bool,help='Mix up or not')
+parser.add_argument('--alpha', default=1., type=float,
+                    help='mixup interpolation coefficient (default: 1)')
 # # defense
 # parser.add_argument('--add_defense',default=False,type=bool,help='add defense or not')
 # parser.add_argument('--defense', action='store',
@@ -134,11 +136,11 @@ def reconstruct(idx, model, loss_fn, trainloader, validloader):
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     if opt.MoEx and opt.Mixup:
-        method = 'MixupMoEx'
+        method = 'MixupMoEx'+str(opt.alpha)
     elif opt.MoEx:
         method = 'MoEx'
     elif opt.Mixup:
-        method = 'Mixup'
+        method = 'Mixup'+str(opt.alpha)
     else:
         method = ''
     torchvision.utils.save_image(output_denormalized.cpu().clone(), '{}/{}_rec_{}_{}.jpg'.format(save_dir, idx,method,opt.aug_list))
@@ -167,14 +169,24 @@ def create_checkpoint_dir():
     # if opt.add_defense:
     #     return 'checkpoints/MMD_defense_{}_{}_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.defense[0],opt.defense[1],opt.noise_position, opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
 
+    # if opt.MoEx and opt.Mixup:
+    #     return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    # elif opt.MoEx:
+    #     return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    # elif opt.Mixup:
+    #      return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+    # else:
+    #     return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+
     if opt.MoEx and opt.Mixup:
-        return 'checkpoints/MixupMoex_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+        return 'checkpoints/MixupMoex_alpha_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.alpha,opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.MoEx:
         return 'checkpoints/MoEx_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     elif opt.Mixup:
-         return 'checkpoints/Mixup_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+         return 'checkpoints/Mixup_alpha_{}_data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.alpha,opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
     else:
         return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
+
 
 
 def main():
@@ -223,9 +235,9 @@ def main():
         metric_list.append(metric)
     save_dir = create_save_dir()
     if opt.MoEx and opt.Mixup:
-        method = 'MixupMoEx'
+        method = 'MixupMoEx'+str(opt.alpha)
     elif opt.MoEx:
-        method = 'MoEx'
+        method = 'MoEx_'+str(opt.alpha)
     elif opt.Mixup:
         method = 'Mixup'
     else:
