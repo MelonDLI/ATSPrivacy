@@ -152,91 +152,42 @@ def main():
     # original images:
     image_list = ['{}_ori.jpg'.format(i+1) for i in range(100) ]
     # image_list = ['test_dog.jpg']
-    print(image_list)
+    # print(image_list)
     print(f'images: {len(image_list)}')
     # ResNet Reconstruction images
-    image_list_rec = ['{}_rec__.jpg'.format(i+1) for i in range(100) ]
-    
+    image_list_rec = ['{}_rec__.jpg'.format(i+1) for i in range(100) ] # ResNet
+    # image_list_rec = ['{}_rec_MixupMoEx_3-1-7+43-18-18.jpg'.format(i+1) for i in range(100) ] # MM
+
     image_list_0= ['blank.jpg']
     data_set_0 = ImageDatasetFromFile(image_list_0, None, '/home/remote/u7076589/ATSPrivacy/benchmark_copy/ssim')
     val_data_0 = DataLoader(data_set_0,batch_size=1,shuffle=False)
     img0 = next(iter(val_data_0))
     
     data_set = ImageDatasetFromFile(image_list, image_list_rec, data_path)
-    val_data = DataLoader(data_set,batch_size=10,shuffle=False)
-    i=1
+    val_data = DataLoader(data_set,batch_size=1,shuffle=False)
     ssim_metric_list = list()
-
-    # for img,img_rec in val_data:
-    #     ##################
-    #     # SSIM
-    #     ##################
-    #     # print(img.shape)
-    #     ssim_module = SSIM(data_range=255, size_average=True, channel=3) # channel=1 for grayscale images
-    #     # ssim_loss = 1 - ssim_module(img, img_rec)
-    #     ssim_loss = 1 - ssim_module(img, img0)
-    #     print(ssim_loss)
-    #     # # set 'size_average=True' to get a scalar value as loss. see tests/tests_loss.py for more details
-    #     # ssim_val = ssim(img, img_rec, data_range=255, size_average=False)
-    #     # print(ssim_val)
-    #     # ssim_loss = 1 - ssim(img, img_rec, data_range=255, size_average=True) # return a scalar
-    #     # # ms_ssim_loss = 1 - ms_ssim( img, img, data_range=255, size_average=True )
-    #     # print(ssim_loss)
-    #     # print(ms_ssim_loss)
-    #     ssim_metric_list.append(ssim_loss)
+    ssim_module = SSIM(data_range=255, size_average=True, channel=3) # channel=1 for grayscale images
+    for img,img_rec in val_data:
+        ##################
+        # SSIM
+        ##################
+        ssim_loss = 1 - ssim_module(img, img0)
+        ssim_loss_rec = 1 - ssim_module(img,img_rec)
+        ssim_metric_list.append((ssim_loss,ssim_loss_rec))
         
-    # save_dir=create_save_dir()
-    # if opt.MoEx and opt.Mixup:
-    #     method = 'MixupMoEx'
-    # elif opt.MoEx:
-    #     method = 'MoEx'
-    # elif opt.Mixup:
-    #     method = 'Mixup'
-    # else:
-    #     method = ''
-    # np.save('{}/metric_ssim_blank_{}_{}.npy'.format(save_dir,method,opt.aug_list),ssim_metric_list)
+        
+    save_dir=create_save_dir()
+    if opt.MoEx and opt.Mixup:
+        method = 'MixupMoEx'
+    elif opt.MoEx:
+        method = 'MoEx'
+    elif opt.Mixup:
+        method = 'Mixup'
+    else:
+        method = ''
+    np.save('{}/metric_ssim_white_ori_rec_{}_{}.npy'.format(save_dir,method,opt.aug_list),ssim_metric_list)
+    # np.save('{}/metric_ssim__chess_MM_ori_rec_{}_{}.npy'.format(save_dir,method,opt.aug_list),ssim_metric_list)
 
 
 if __name__ == '__main__':
     main()
-
-# reuse the gaussian kernel with SSIM & MS_SSIM. 
-# ssim_module = SSIM(data_range=255, size_average=True, channel=3) # channel=1 for grayscale images
-# ms_ssim_module = MS_SSIM(data_range=255, size_average=True, channel=3)
-
-# ssim_loss = 1 - ssim_module(X, Y)
-# ms_ssim_loss = 1 - ms_ssim_module(X, Y)
-
-    # # X: (N,3,H,W) a batch of non-negative RGB images (0~255)
-    # # Y: (N,3,H,W)  
-
-    # # calculate ssim & ms-ssim for each image
-    # ssim_val = ssim( X, Y, data_range=255, size_average=False) # return (N,)
-    # ms_ssim_val = ms_ssim( X, Y, data_range=255, size_average=False ) #(N,)
-    
-    
-    # import statistics
-
-    # for img in val_data:
-    #     feature = model(img.to(**setup))
-    #     # print(feature.detach().cpu().numpy())
-    #     temp = feature.detach().cpu().numpy()
-    #     # print(temp.reshape(-1))
-    #     output = statistics.variance(temp.reshape(-1).tolist()) 
-
-    #     # metric_list.append(feature.detach().cpu().mean())
-    #     metric_list.append(output)
-    #     # print(output)
-
-
-    # # save data
-    # if opt.MoEx and opt.Mixup:
-    #     method = 'MixupMoEx'
-    # elif opt.MoEx:
-    #     method = 'MoEx'
-    # elif opt.Mixup:
-    #     method = 'Mixup'
-    # else:
-    #     method = ''
-    # save_dir = create_save_dir()
-    # np.save('{}/basis_metric_{}_{}.npy'.format(save_dir, method, opt.aug_list),metric_list)

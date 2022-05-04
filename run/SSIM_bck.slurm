@@ -16,7 +16,7 @@ echo "--- starting ---"
 # echo "-- with search ---"
 echo " SSIM ResNet original and reconstruction"
 
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed'  --MoEx=True --Mixup=True
-# singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/result_metric.py
+# singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_basis.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed'  --MoEx=True --Mixup=True
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/result_metric.py
 echo "--- done ---"
 date
