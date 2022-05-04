@@ -15,7 +15,7 @@ echo "--- starting ---"
 # Job commands here
 # echo "-- with search ---"
 echo " Mixup + lambda=0.3 privacy-preserving evaluation"
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/mixup_train.py --data=cifar100 --arch='ResNet20-4' --epochs=1 --aug_list='' --mode=aug --Mixup=True
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/mixup_attack.py --data=cifar100 --arch='ResNet20-4' --epochs=1 --aug_list='' --mode=aug --optim='inversed' --Mixup=True --alpha=0.3
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/mixup_train.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --Mixup=True --alpha=0.5
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/mixup_attack.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed' --Mixup=True --alpha=0.5
 echo "--- done ---"
 date
