@@ -59,8 +59,8 @@ criterion = nn.CrossEntropyLoss()
 
 def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, opt,epoch):
     """Step through one epoch."""
-    dm = torch.as_tensor(consts.cifar10_mean, **setup)[:, None, None]
-    ds = torch.as_tensor(consts.cifar10_std, **setup)[:, None, None]
+    dm = torch.as_tensor(consts.cifar100_mean, **setup)[:, None, None]
+    ds = torch.as_tensor(consts.cifar100_std, **setup)[:, None, None]
 
     epoch_loss, epoch_metric = 0, 0
     for batch, (inputs, targets) in enumerate(dataloader):
