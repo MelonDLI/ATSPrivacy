@@ -49,13 +49,13 @@ def ssim_file_path(type):
 
 def ssim_recon_path(type):
     if type == 'ResNet':
-        # return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_ResNet_ori_rec__3-1-7+43-18-18.npy'
+        return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_ResNet_ori_rec__3-1-7+43-18-18.npy'
         # return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_chess_ori_rec__3-1-7+43-18-18.npy'
-        return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_white_ori_rec__3-1-7+43-18-18.npy'
+        # return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_white_ori_rec__3-1-7+43-18-18.npy'
     if type == 'MM':
-        # return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_MM_ori_rec_MixupMoEx_3-1-7+43-18-18.npy'
+        return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_MM_ori_rec_MixupMoEx_3-1-7+43-18-18.npy'
         # return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_chess_ori_rec_MixupMoEx_3-1-7+43-18-18.npy'
-        return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_white_ori_rec_MixupMoEx_3-1-7+43-18-18.npy'
+        # return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/metric_ssim_white_ori_rec_MixupMoEx_3-1-7+43-18-18.npy'
 def file_load(filename):
     # ResNet
     file = filename
@@ -94,11 +94,23 @@ if __name__ == '__main__':
     plt.scatter(plot['Res_ori'],plot['Res_recon'],label='ResNet+DA')
     plt.scatter(plot['MM_ori'],plot['MM_recon'],label='MM+DA')
 
-    plt.title('SSIM vs SSIM with white as ref')
+    # plt.title('SSIM vs SSIM with white as ref')
+    # plt.title('SSIM vs SSIm with chessboard as ref')
+    plt.title('SSIM vs SSIM with whirlpool as ref')
     plt.ylabel('SSIM: ori vs rec')
     # plt.ylim(ymin=5,ymax=20)
     plt.xlabel('SSIM')
     # plt.xlim(xmin=0,xmax=0.05)
     plt.legend(loc="upper right")
-    plt.savefig('{}/ssim_ResNet_MM_white.jpg'.format(save_dir))
+    # save_fig = '{}/ssim_ResNet_MM_white.jpg'.format(save_dir)
+    # save_fig = '{}/ssim_ResNet_MM_chessboard.jpg'.format(save_dir)
+    save_fig = '{}/ssim_ResNet_MM.jpg'.format(save_dir)
+    plt.savefig(save_fig)
     plt.close()
+    print(save_fig)
+    print('Recon SSIM')
+    print(stats.pearsonr(plot['Res_ori'],plot['Res_recon']))
+    print(np.corrcoef(plot['Res_ori'],plot['Res_recon']))
+    print('MM SSIM')
+    print(stats.pearsonr(plot['MM_ori'],plot['MM_recon']))
+    print(np.corrcoef(plot['MM_ori'],plot['MM_recon']))

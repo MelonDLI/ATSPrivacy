@@ -158,7 +158,7 @@ def main():
     image_list_rec = ['{}_rec__.jpg'.format(i+1) for i in range(100) ] # ResNet
     # image_list_rec = ['{}_rec_MixupMoEx_3-1-7+43-18-18.jpg'.format(i+1) for i in range(100) ] # MM
 
-    image_list_0= ['blank.jpg']
+    image_list_0= ['blank_whirl.jpg']
     data_set_0 = ImageDatasetFromFile(image_list_0, None, '/home/remote/u7076589/ATSPrivacy/benchmark_copy/ssim')
     val_data_0 = DataLoader(data_set_0,batch_size=1,shuffle=False)
     img0 = next(iter(val_data_0))
