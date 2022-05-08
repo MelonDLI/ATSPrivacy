@@ -82,7 +82,7 @@ def _build_cifar10(data_path, augmentations=True, normalize=True):
 
     return trainset, validset
 
-def _build_cifar100(data_path, augmentations=True, normalize=True,return_transform=False):
+def _build_cifar100(data_path, augmentations=True, normalize=True):
     """Define CIFAR-100 with everything considered."""
     # Load data
     trainset = torchvision.datasets.CIFAR100(root=data_path, train=True, download=True, transform=transforms.ToTensor())
@@ -106,8 +106,7 @@ def _build_cifar100(data_path, augmentations=True, normalize=True,return_transfo
     else:
         trainset.transform = transform
     validset.transform = transform
-    if return_transform:
-        return transform
+
     return trainset, validset
 
 

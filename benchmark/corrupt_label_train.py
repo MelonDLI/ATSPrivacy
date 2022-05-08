@@ -26,7 +26,7 @@ import policy
 # from benchmark.comm import create_model, build_transform, preprocess, create_config
 from benchmark.comm import create_model, build_transform, preprocessRandomLabel, create_config
 
-
+# python /home/remote/u7076589/ATSPrivacy/benchmark/corrupt_label_train.py --data=cifar100 --arch='ResNet20-4' --epochs=2000 --aug_list='' --mode=aug
 
 policies = policy.policies
 
@@ -110,7 +110,8 @@ def main():
 def evaluate():
     setup = inversefed.utils.system_startup()
     defs = inversefed.training_strategy('conservative'); defs.epochs=opt.epochs
-    loss_fn, trainloader, validloader = preprocess(opt, defs, valid=False)
+    # loss_fn, trainloader, validloader = preprocess(opt, defs)
+    loss_fn, trainloader, validloader = preprocessRandomLabel(opt,defs)
     model = create_model(opt)
     model.to(**setup)
     root = create_save_dir()

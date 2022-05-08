@@ -30,9 +30,11 @@ def train(model, loss_fn, trainloader, validloader, defs, setup=dict(dtype=torch
     if not opt.MoEx and not opt.Mixup:
         print('Mode: Regular without MoEx and Mixup')
     print('-----------------------------------------------')
+    
     for epoch in range(defs.epochs):
         model.train()
         step(model, loss_fn, trainloader, optimizer, scheduler, defs, setup, stats, opt,epoch)
+        
         # #!save
         # if save_dir is not None:
         #     file = f'{save_dir}/{arch}_{epoch+1}.pth'
@@ -63,99 +65,107 @@ def step(model, loss_fn, dataloader, optimizer, scheduler, defs, setup, stats, o
     ds = torch.as_tensor(consts.cifar100_std, **setup)[:, None, None]
 
     epoch_loss, epoch_metric = 0, 0
-    for batch, (inputs, targets) in enumerate(dataloader):
-        # Prep Mini-Batch
-        optimizer.zero_grad()
-        # Transfer to GPU
-        inputs = inputs.to(**setup)
-        targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
-        if opt.MoEx and opt.Mixup:
-            lam = opt.lam
-            r = np.random.rand(1)
-            if r < opt.moex_prob: # switch moments
-                # generate mixed sample
-                rand_index = torch.randperm(inputs.size()[0]).cuda()
-                target_a = targets
-                target_b = targets[rand_index]
-                input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
-                input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
-                target_a_var = torch.autograd.Variable(target_a)
-                target_b_var = torch.autograd.Variable(target_b)
-                outputs = model(input_a_var, input_b_var)
-                loss_a, _, _ = loss_fn(outputs, target_a_var)
-                loss_b, _, _ = loss_fn(outputs, target_b_var)
-                loss = lam*loss_a + (1-lam)*loss_b
-            else: # or do not switch MoEx
-                outputs = model(inputs)
-                loss, _, _ = loss_fn(outputs, targets)
-            
-            inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, setup, opt.alpha)
-            inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
-            outputs = model(inputs)
-            loss_mixup= lam * criterion(outputs, targets_a) + (1 - lam) * criterion(outputs, targets_b)
-            loss = loss +loss_mixup
-        elif opt.MoEx:
-            # print('MoEx train')
-            lam = opt.lam
-            r = np.random.rand(1)
-            if r < opt.moex_prob: # switch moments
-                # generate mixed sample
-                rand_index = torch.randperm(inputs.size()[0]).cuda()
-                target_a = targets
-                target_b = targets[rand_index]
-                input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
-                input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
-                target_a_var = torch.autograd.Variable(target_a)
-                target_b_var = torch.autograd.Variable(target_b)
-                outputs = model(input_a_var, input_b_var)
-                loss_a, _, _ = loss_fn(outputs, target_a_var)
-                loss_b, _, _ = loss_fn(outputs, target_b_var)
-                loss = lam*loss_a + (1-lam)*loss_b
-            else: # or do not switch MoEx
-                outputs = model(inputs)
-                loss, _, _ = loss_fn(outputs, targets)
-        elif opt.Mixup:
-            #Mix up mode
-            inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, setup, opt.alpha)
-            inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
-            outputs = model(inputs)
-            loss = lam * criterion(outputs, targets_a) + (1 - lam) * criterion(outputs, targets_b)
+    inputs, targets = next(iter(dataloader))  #! overfit
 
-        else: # Original ResNet
-            outputs = model(inputs)
-            loss, _, _ = loss_fn(outputs, targets)
+    # for batch, (inputs, targets) in enumerate(dataloader):
+        # Prep Mini-Batch
+    optimizer.zero_grad()
+    # Transfer to GPU
+    inputs = inputs.to(**setup)
+    targets = targets.to(device=setup['device'], non_blocking=NON_BLOCKING)
+    # print(inputs.shape)
+    # print(targets.shape)
+        # if opt.MoEx and opt.Mixup:
+        #     lam = opt.lam
+        #     r = np.random.rand(1)
+        #     if r < opt.moex_prob: # switch moments
+        #         # generate mixed sample
+        #         rand_index = torch.randperm(inputs.size()[0]).cuda()
+        #         target_a = targets
+        #         target_b = targets[rand_index]
+        #         input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
+        #         input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
+        #         target_a_var = torch.autograd.Variable(target_a)
+        #         target_b_var = torch.autograd.Variable(target_b)
+        #         outputs = model(input_a_var, input_b_var)
+        #         loss_a, _, _ = loss_fn(outputs, target_a_var)
+        #         loss_b, _, _ = loss_fn(outputs, target_b_var)
+        #         loss = lam*loss_a + (1-lam)*loss_b
+        #     else: # or do not switch MoEx
+        #         outputs = model(inputs)
+        #         loss, _, _ = loss_fn(outputs, targets)
+            
+        #     inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, setup, opt.alpha)
+        #     inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
+        #     outputs = model(inputs)
+        #     loss_mixup= lam * criterion(outputs, targets_a) + (1 - lam) * criterion(outputs, targets_b)
+        #     loss = loss +loss_mixup
+        # elif opt.MoEx:
+        #     # print('MoEx train')
+        #     lam = opt.lam
+        #     r = np.random.rand(1)
+        #     if r < opt.moex_prob: # switch moments
+        #         # generate mixed sample
+        #         rand_index = torch.randperm(inputs.size()[0]).cuda()
+        #         target_a = targets
+        #         target_b = targets[rand_index]
+        #         input_a_var = torch.autograd.Variable(inputs, requires_grad=True)
+        #         input_b_var = torch.autograd.Variable(inputs[rand_index], requires_grad=True)
+        #         target_a_var = torch.autograd.Variable(target_a)
+        #         target_b_var = torch.autograd.Variable(target_b)
+        #         outputs = model(input_a_var, input_b_var)
+        #         loss_a, _, _ = loss_fn(outputs, target_a_var)
+        #         loss_b, _, _ = loss_fn(outputs, target_b_var)
+        #         loss = lam*loss_a + (1-lam)*loss_b
+        #     else: # or do not switch MoEx
+        #         outputs = model(inputs)
+        #         loss, _, _ = loss_fn(outputs, targets)
+        # elif opt.Mixup:
+        #     #Mix up mode
+        #     inputs, targets_a, targets_b, lam = mixup_data(inputs, targets, setup, opt.alpha)
+        #     inputs, targets_a, targets_b = map(Variable, (inputs, targets_a, targets_b))
+        #     outputs = model(inputs)
+        #     loss = lam * criterion(outputs, targets_a) + (1 - lam) * criterion(outputs, targets_b)
+
+        # else: # Original ResNet
+        #     outputs = model(inputs)
+        #     loss, _, _ = loss_fn(outputs, targets)
 
         # Get loss
-        # outputs = model(inputs)
-        # loss, _, _ = loss_fn(outputs, targets)
+    outputs = model(inputs)
+    loss, _, _ = loss_fn(outputs, targets)
 
 
-        epoch_loss += loss.item()
+    epoch_loss += loss.item()
 
-        loss.backward()
+    loss.backward()
 
-        if opt.add_defense:
-            if opt.noise_position=='first' and epoch<defs.epochs/4:
-                add_defense(opt,model)
-            if opt.noise_position=='middle' and epoch>=defs.epochs/4 and epoch<=defs.epochs*3/4:
-                add_defense(opt,model)
-            if opt.noise_position=='final' and epoch>=defs.epochs*3/4:
-                add_defense(opt,model)
-            
-        optimizer.step()
+    if opt.add_defense:
+        if opt.noise_position=='first' and epoch<defs.epochs/4:
+            add_defense(opt,model)
+        if opt.noise_position=='middle' and epoch>=defs.epochs/4 and epoch<=defs.epochs*3/4:
+            add_defense(opt,model)
+        if opt.noise_position=='final' and epoch>=defs.epochs*3/4:
+            add_defense(opt,model)
+        
+    optimizer.step()
 
-        metric, name, _ = loss_fn.metric(outputs, targets)
-        epoch_metric += metric.item()
+    metric, name, _ = loss_fn.metric(outputs, targets)
+    epoch_metric += metric.item()
 
-        if defs.scheduler == 'cyclic':
-            scheduler.step()
-        if defs.dryrun:
-            break
+    if defs.scheduler == 'cyclic':
+        scheduler.step()
+        # if defs.dryrun:
+        #     break
+    # ! overfit
+    batch = 0
     if defs.scheduler == 'linear':
         scheduler.step()
 
     stats['train_losses'].append(epoch_loss / (batch + 1))
     stats['train_' + name].append(epoch_metric / (batch + 1))
+    # stats['train_losses'].append(epoch_loss )
+    # stats['train_' + name].append(epoch_metric )
 
 def add_defense(opt,model):
     #! add defense at the second stage of training

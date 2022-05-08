@@ -99,42 +99,52 @@ def split(aug_list):
             ret_list.append([int(idx) for idx in aug.split('-')])
         return ret_list
 
-
-def preprocessRandomLabel(opt,defs,valid=False,cifar100_mean=None):
-    transform = build_transform(True,[],opt,defs)
-
+def preprocessRandomLabel(opt, defs, valid=False,normalize=True):
     if len(opt.aug_list) > 0:
         policy_list = split(opt.aug_list)
     else:
         policy_list = []
-    # if not valid:
-    if not valid and len(opt.aug_list) > 0:
-        transform_train = build_transform(True, policy_list, opt, defs)
-    else:
-        transform_train = transform
     if opt.data == 'cifar100':
-        loss_fn = Classification()
-        data_mean, data_std = inversefed.consts.cifar100_mean, inversefed.consts.cifar100_std
-
-        transform_train = build_transform(True, policy_list, opt, defs)
         num_classes=100
-        
-        kwargs = {'num_workers': 2, 'pin_memory': True}
-        trainloader = torch.utils.data.DataLoader(
-            CIFAR100RandomLabels(root='~/data/', train=True, download=True,
-                                transform=transform_train, num_classes=num_classes,
-                                corrupt_prob=100), # 100% corrupt label
-            batch_size=defs.batch_size, shuffle=True, **kwargs)
-        validloader = torch.utils.data.DataLoader(
-            CIFAR100RandomLabels(root='~/data/', train=False,
-                                transform=transform, num_classes=num_classes,
-                                corrupt_prob=0), # not corrupt label
-            batch_size=defs.batch_size, shuffle=False, **kwargs)  
-    
+        data_mean, data_std = inversefed.consts.cifar100_mean, inversefed.consts.cifar100_std
+        # loss_fn, trainloader, validloader =  inversefed.construct_dataloaders('CIFAR100', defs)
+        loss_fn = Classification() 
+        # trainset, validset = _build_cifar100('~/data/')
+        transform = transforms.Compose([
+                                transforms.ToTensor(),
+                                transforms.Normalize(data_mean, data_std) if normalize else transforms.Lambda(lambda x: x)])
+        if opt.mode == 'aug':
+            transform_train = transforms.Compose([
+                                transforms.RandomCrop(32, padding=4),
+                                transforms.RandomHorizontalFlip(),
+                                transforms.ToTensor(),
+                                transforms.Normalize(data_mean, data_std) if normalize else transforms.Lambda(lambda x: x)])
+        else:
+            transform_train = transform
+
+        trainset = CIFAR100RandomLabels(root='~/data', train=True, download=True,
+                                transform=transforms.ToTensor(), num_classes=num_classes,
+                                corrupt_prob=0.0)
+        print(trainset)
+        validset = CIFAR100RandomLabels(root='~/data', train=False,
+                                transform=transforms.ToTensor(), num_classes=num_classes,
+                                corrupt_prob=0)
+        # # if not valid:
+        if not valid and len(opt.aug_list) > 0:
+            trainset.transform = build_transform(True, policy_list, opt, defs)
+        trainloader = torch.utils.data.DataLoader(trainset, batch_size=defs.batch_size,
+                    shuffle=True, drop_last=False, num_workers=2, pin_memory=True)
+
+
+        # if valid:
+        # if valid and len(opt.aug_list) > 0:
+        #     validset.transform = build_transform(True, policy_list, opt, defs)
+        validloader = torch.utils.data.DataLoader(validset, batch_size=defs.batch_size,
+                shuffle=False, drop_last=False, num_workers=2, pin_memory=True)
         return loss_fn, trainloader, validloader
     else:
         raise NotImplementedError
-        
+
 
 def preprocess(opt, defs, valid=False):
     if opt.data == 'cifar100':

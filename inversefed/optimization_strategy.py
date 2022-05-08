@@ -48,6 +48,7 @@ class ConservativeStrategy(Strategy):
         """Initialize training hyperparameters."""
         self.lr = 0.1
         self.epoch = None
+        # self.batch_size = 128
         self.batch_size = 128
         self.optimizer = 'SGD'
         self.scheduler = 'linear'

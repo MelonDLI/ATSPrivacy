@@ -15,7 +15,8 @@ echo "--- starting ---"
 # Job commands here
 # echo "-- with search ---"
 echo " training label corrupted privacy-preserving evaluation"
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/corrupt_label_train.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug
-singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/corrupt_label_attack.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed'
-echo "--- done ---"
-date
+# singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/corrupt_label_train.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug
+# singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/corrupt_label_attack.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed'
+# echo "--- done ---"
+# date
+singularity exec --nv /opt/apps/containers/pytorch_22.01-py3.sif python /home/remote/u7076589/ATSPrivacy/benchmark/corrupt_label_train.py --data=cifar100 --arch='ResNet20-4' --epochs=2000 --aug_list='' --mode=aug
