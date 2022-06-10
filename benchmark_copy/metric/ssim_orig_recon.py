@@ -31,7 +31,7 @@ from benchmark.comm import create_model, build_transform, preprocess, create_con
 
 from ssim import *
 # from pytorch_ssim import *
-# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/basis.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed'
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed'
 
 parser = argparse.ArgumentParser(description='Reconstruct some image from a trained model.')
 parser.add_argument('--aug_list', default=None, required=True, type=str, help='Vision model.')
@@ -110,7 +110,7 @@ def create_checkpoint_dir():
         return 'checkpoints/data_{}_arch_{}_mode_{}_auglist_{}_rlabel_{}'.format(opt.data, opt.arch, opt.mode, opt.aug_list, opt.rlabel)
 
 def create_save_dir():
-    return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/mixup/'
+    return '/home/remote/u7076589/ATSPrivacy/benchmark_copy/ssim/'
 
 def main():
     if opt.MoEx:
@@ -155,8 +155,17 @@ def main():
     # print(image_list)
     print(f'images: {len(image_list)}')
     # ResNet Reconstruction images
-    image_list_rec = ['{}_rec__.jpg'.format(i+1) for i in range(100) ] # ResNet
+    # image_list_rec = ['{}_rec__.jpg'.format(i+1) for i in range(100) ] # ResNet
     # image_list_rec = ['{}_rec_MixupMoEx_3-1-7+43-18-18.jpg'.format(i+1) for i in range(100) ] # MM
+    if opt.Mixup and opt.MoEx:
+        image_list_rec = ['{}_rec_MixupMoEx_{}.jpg'.format(i+1,opt.aug_list) for i in range(100) ] # MM
+    elif opt.Mixup:
+        image_list_rec = ['{}_rec_Mixup_{}.jpg'.format(i+1,opt.aug_list) for i in range(100) ] # Mixup
+    elif opt.MoEx:
+        image_list_rec = ['{}_rec_MoEx_{}.jpg'.format(i+1,opt.aug_list) for i in range(100) ] # MoEx
+    else:
+        image_list_rec = ['{}_rec__{}.jpg'.format(i+1,opt.aug_list) for i in range(100) ] # ResNet
+    print(image_list_rec[0])
 
     image_list_0= ['blank_whirl.jpg']
     data_set_0 = ImageDatasetFromFile(image_list_0, None, '/home/remote/u7076589/ATSPrivacy/benchmark_copy/ssim')
@@ -167,12 +176,17 @@ def main():
     val_data = DataLoader(data_set,batch_size=1,shuffle=False)
     ssim_metric_list = list()
     ssim_module = SSIM(data_range=255, size_average=True, channel=3) # channel=1 for grayscale images
+    # mssim_module = MS_SSIM(data_range=255, size_average=True, channel=3) 
     for img,img_rec in val_data:
         ##################
         # SSIM
         ##################
-        ssim_loss = 1 - ssim_module(img, img0)
-        ssim_loss_rec = 1 - ssim_module(img,img_rec)
+        print(img.shape)
+        print(img_rec.shape)
+        ssim_loss = 1- ssim_module(img, img0)
+        ssim_loss_rec = 1- ssim_module(img,img_rec)
+        # mssim_loss_rec = 1-mssim_module(img,img_rec)
+        # ssim_metric_list.append((ssim_loss,ssim_loss_rec,mssim_loss_rec))
         ssim_metric_list.append((ssim_loss,ssim_loss_rec))
         
         
@@ -185,9 +199,21 @@ def main():
         method = 'Mixup'
     else:
         method = ''
-    np.save('{}/metric_ssim_white_ori_rec_{}_{}.npy'.format(save_dir,method,opt.aug_list),ssim_metric_list)
+    np.save('{}/metric_ssim_whirl_ori_rec_{}_{}.npy'.format(save_dir,method,opt.aug_list),ssim_metric_list)
     # np.save('{}/metric_ssim__chess_MM_ori_rec_{}_{}.npy'.format(save_dir,method,opt.aug_list),ssim_metric_list)
 
 
 if __name__ == '__main__':
     main()
+
+
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed'
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed'
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed' --Mixup=True
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed' --Mixup=True
+
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed' --MoEx=True
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed' --MoEx=True
+
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='' --mode=aug --optim='inversed' --MoEx=True --Mixup=True
+# python /home/remote/u7076589/ATSPrivacy/benchmark_copy/metric/ssim_orig_recon.py --data=cifar100 --arch='ResNet20-4' --epochs=200 --aug_list='3-1-7+43-18-18' --mode=aug --optim='inversed' --MoEx=True --Mixup=True

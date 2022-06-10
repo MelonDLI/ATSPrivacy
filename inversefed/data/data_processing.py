@@ -12,6 +12,7 @@ from ..consts import *
 from .data import _build_bsds_sr, _build_bsds_dn
 from .loss import Classification, PSNR
 
+from .random_label import CIFAR100RandomLabels
 
 def construct_dataloaders(dataset, defs, data_path='./data', shuffle=True, normalize=True):
     """Return a dataloader with given dataset and augmentation, normalize data?."""
@@ -82,12 +83,17 @@ def _build_cifar10(data_path, augmentations=True, normalize=True):
 
     return trainset, validset
 
-def _build_cifar100(data_path, augmentations=True, normalize=True):
+def _build_cifar100(data_path, augmentations=True, normalize=True,corrupt_prob=0.0):
     """Define CIFAR-100 with everything considered."""
     # Load data
-    trainset = torchvision.datasets.CIFAR100(root=data_path, train=True, download=True, transform=transforms.ToTensor())
-    validset = torchvision.datasets.CIFAR100(root=data_path, train=False, download=True, transform=transforms.ToTensor())
-
+    # trainset = torchvision.datasets.CIFAR100(root=data_path, train=True, download=True, transform=transforms.ToTensor())
+    # validset = torchvision.datasets.CIFAR100(root=data_path, train=False, download=True, transform=transforms.ToTensor())
+    trainset = CIFAR100RandomLabels(root=data_path, train=True, download=True,
+                                transform=transforms.ToTensor(), num_classes=100,
+                                corrupt_prob=corrupt_prob)
+    validset = CIFAR100RandomLabels(root=data_path, train=False,
+                                transform=transforms.ToTensor(), num_classes=100,
+                                corrupt_prob=corrupt_prob)
     if cifar100_mean is None:
         data_mean, data_std = _get_meanstd(trainset)
     else:
